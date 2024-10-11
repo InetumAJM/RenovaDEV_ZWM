@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;-0.5&apos; CH YORIGIN &apos;-0.20&apos; LN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>SIZE WIDTH &apos;+1.0&apos; CH HEIGHT +1 LN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Data Impressão :&lt;/&gt; &amp;SY-DATUM&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Hora Impressão :&lt;/&gt; &amp;SY-UZEIT&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>LOGO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BITMAP ZRENOVA_LOGO OBJECT ZWM ID ZREN TYPE BMON DPI 100</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEMS_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Pedido de Compra&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&amp;L_ZWM017-EBELN&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEMS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&amp;L_ZWM017-PED_ITEM&amp;,,&lt;bc&gt;&amp;L_ZWM017-PED_ITEM&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Material :&lt;/&gt; &amp;l_ZWM017-MATERIAL&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Descrição :&lt;/&gt; &amp;l_ZWM017-MAKTX&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;EAN :&lt;/&gt; &amp;l_ZWM017-EAN11&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>                                          &lt;bc&gt;&amp;L_ZWM017-EAN11&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

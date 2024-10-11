@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZWM081</TCODE>
+    <PGMNA>ZWMREP0059</PGMNA>
+    <DYPNO>0150</DYPNO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZWM081</TCODE>
+    <S_WIN32>X</S_WIN32>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>P</SPRSL>
+    <TCODE>ZWM081</TCODE>
+    <TTEXT>Transporte e Saida de Mercadoria</TTEXT>
+   </TSTCT>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>F</SPRSL>
+     <TTEXT>Transport et sortie  Marchandise</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

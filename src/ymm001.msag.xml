@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>YMM001</ARBGB>
+    <MASTERLANG>P</MASTERLANG>
+    <STEXT>Mensagens MM</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Material &amp; inválido</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Unidade de Medida &amp; não mantida para o Material &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Material &amp; sem EAN mantido</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Sem dados a processar</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Sem Movimento de Estorno definido para Movimento &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Documento &amp; (&amp;) não encontrado na BD</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>O Material &amp; não é o esperado (&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Material &amp; não gerido por Lote</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Lote &amp; inválido para o Material &amp; no Centro &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Material &amp; não presente no Centro &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Data de Validade não mantida para o Material &amp; Lote &amp; Centro &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Data de Produção não mantida para o Material &amp; Lote &amp; Centro &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>P/ centro &amp; e mot.movimento &amp; não foram encontrados dados na YRBL_MM_T001</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Para &amp;/&amp;/&amp; não foi encontrado depósito de destino na tabela YRBL_MM_T001</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Processo de transferência executado. Executar &amp; para consulta de log.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Material &amp; não existe no centro &amp; e depósito de destino &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Não foram selecionados dados para os critérios de seleção.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Erro ao abrir o ficheiro &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Ficheiro &amp; está vazio.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Erro ao converter sheet &amp; do ficheiro.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Sheet &amp; está vazia.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Erro ao converter campo &amp; da sheet &amp; do ficheiro.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Tabela &amp; não existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Campo &amp; não é chave de tabela &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Erro ao criar chave &amp; (elemento de dados &amp;).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Erro ao converter elemento de dados &amp; para formato interno.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Tipo de Classe &amp; não existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Classe &amp; não existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Combinação de Tipo de Classe &amp; e Classe &amp; inválida.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Característica &amp; não existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Para o objeto a característica &amp; já possui o valor &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Erro ao converser valor &amp; para característica &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YMM001</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Únidade &amp; inválida</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>HH</TDFORMAT>
+     <TDLINE>&lt;B&gt;SSCC :&lt;/&gt;&amp;i_zwm026-sscc&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>HEADER_M</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;3.40&apos; CM HEIGHT &apos;0.80&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;13.60&apos; CM HEIGHT &apos;0.80&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;16.90&apos; CM HEIGHT &apos;0.80&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;17.00&apos; CM HEIGHT &apos;15.7&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>H1</TDFORMAT>
+     <TDLINE>&lt;B&gt;Referência&lt;/&gt;,,&lt;B&gt;Descrição&lt;/&gt;,,&lt;B&gt;Quantidade&lt;/&gt;,,&lt;B&gt;Unidade&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>LOGO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>LG</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>LG</TDFORMAT>
+     <TDLINE>   RENOVA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEMS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&amp;i_zwm026-material&amp;,,&amp;i_zwm026-descricao&amp;,,&amp;i_zwm026-quantidade&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;i_zwm026-unidade&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>PACK_MAT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>Palete: &amp;i_zwm026-pack_material&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>S_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>SH</TDFORMAT>
+     <TDLINE>&lt;B&gt;Data :&lt;/&gt; &amp;SY-DATUM&amp;,,&lt;B&gt;Hora :&lt;/&gt; &amp;SY-UZEIT&amp;,,&lt;B&gt;Pág:&lt;/&gt; &amp;PAGE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>TEXTO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>H2</TDFORMAT>
+     <TDLINE>  Lista</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>H2</TDFORMAT>
+     <TDLINE>    de</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>H2</TDFORMAT>
+     <TDLINE> Conteudo</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>H2</TDFORMAT>
+     <TDLINE>   SSCC</TDLINE>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

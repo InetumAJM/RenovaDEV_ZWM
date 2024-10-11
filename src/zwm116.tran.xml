@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZWM116</TCODE>
+    <PGMNA>AQZZZWM=========ZWMHUPICKING==</PGMNA>
+    <DYPNO>1000</DYPNO>
+    <CINFO>kA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZWM116</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>P</SPRSL>
+    <TCODE>ZWM116</TCODE>
+    <TTEXT>Lista Paletes Picking sem Embalament</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>ZWM116</TCODE>
+    <PARAM>ROFF</PARAM>
+   </TSTCP>
+  </asx:values>
+ </asx:abap>
+</abapGit>

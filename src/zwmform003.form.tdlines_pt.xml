@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>CODBARRA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;bc&gt;&amp;l_recepcao-num_entrada&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>GRELHA_L</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>HH</TDFORMAT>
+     <TDLINE>&lt;B&gt;Fornecedor :&lt;/&gt; &amp;FORNECEDOR&amp;,,,,&lt;B&gt;Pág.: &lt;/&gt;&amp;PAGE&amp;/</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&amp;SAPSCRIPT-FORMPAGES&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>HH</TDFORMAT>
+     <TDLINE>&lt;B&gt;Transportador :&lt;/&gt; &amp;DESC_TRANSPORTADOR&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>HH</TDFORMAT>
+     <TDLINE>,,,,&lt;B&gt;Matricula :&lt;/&gt; &amp;matricula&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>HEADER_M</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;3.4&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;13.6&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;15.6&apos; CM YPOS &apos;0.5&apos; CM WIDTH 0 CM HEIGHT &apos;0.5&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;17.0&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>H1</TDFORMAT>
+     <TDLINE>&lt;B&gt;Referência&lt;/&gt;,,&lt;B&gt;Descrição&lt;/&gt;,,&lt;B&gt;Quantidade&lt;/&gt;,,&lt;B&gt;Unidade&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>HM</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;Teórica &lt;/&gt;,,&lt;B&gt;Real  &lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>LOGO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BITMAP &apos;ZLOGO_RENOVA_PEQUENO&apos; OBJECT GRAPHICS ID BMAP TYPE BMON</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BITMAP ZRENOVA_LOGO OBJECT ZWM ID ZREN TYPE BMON DPI 100</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEMS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>IT</TDFORMAT>
+     <TDLINE>&amp;L_RECEPCAO-MATERIAL&amp;,,&amp;L_RECEPCAO-MAKTX&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;L_RECEPCAO-QUANTIDADE_TEO(5I&gt;)&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;L_RECEPCAO-QUANTIDADE_REAL(5I&gt;)&amp;,,&amp;&apos; &apos;L_RECEPCAO-UNI(3)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>PALETES</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&amp;palete1&amp;,,&amp;DESC_PAL1&amp;,,&amp;QUANTIDADE_TEO1A&amp;,,&amp;QUANTIDADE1_AUX&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&amp;UNI_PAL1&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&amp;palete2&amp;,,&amp;DESC_PAL2&amp;,,&amp;QUANTIDADE_TEO2A&amp;,,&amp;QUANTIDADE2_AUX&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&amp;UNI_PAL2&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&amp;palete3&amp;,,&amp;DESC_PAL3&amp;,,&amp;QUANTIDADE_TEO3A&amp;,,&amp;QUANTIDADE3_AUX&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&amp;UNI_PAL3&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&amp;palete4&amp;,,&amp;DESC_PAL4&amp;,,&amp;QUANTIDADE_TEO4A&amp;,,&amp;QUANTIDADE4_AUX&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&amp;UNI_PAL4&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>OBS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Observações :&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>RENOVA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Renova :&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>S_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>SH</TDFORMAT>
+     <TDLINE>&lt;B&gt;Data :&lt;/&gt; &amp;SY-DATUM&amp;,,&lt;B&gt;Hora :&lt;/&gt; &amp;SY-UZEIT&amp;,,&lt;B&gt;Porta :&lt;/&gt; &amp;PORTA&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>TALAO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>ZA</TDFORMAT>
+     <TDLINE>,,Entrada de Terceiros</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TA</TDFORMAT>
+     <TDLINE>&lt;H&gt;Número do Talão&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TA</TDFORMAT>
+     <TDLINE>,,&lt;H&gt;&amp;L_RECEPCAO-NUM_ENTRADA(Z)&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>TOTALPAL</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>IF &amp;NEXTPAGE&amp; = &apos;0&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&lt;B&gt;Total de Paletes :&lt;/&gt;,,,,&amp;TOTAL_PAL_TEO_AUX&amp;,,,,&amp;TOTAL_PAL_REAL_AUX&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>ELSE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&lt;B&gt;Total na última página&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>TRANSP</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Transportador :&lt;/&gt;</TDLINE>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

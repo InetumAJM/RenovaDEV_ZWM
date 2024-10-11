@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>CLIENTE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEMS_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;CLIENTE&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&amp;TI_ZWM025-Cliente&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&amp;DESC_CLIENTE(30)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;-0.5&apos; CH YORIGIN &apos;-0.20&apos; LN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>SIZE WIDTH &apos;+1.0&apos; CH HEIGHT +1 LN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Data Impressão :&lt;/&gt; &amp;SY-DATUM&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Hora Impressão :&lt;/&gt; &amp;SY-UZEIT&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>HEADER_M</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW INTENSITY 10</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;0&apos; CM HEIGHT &apos;14&apos; CM WIDTH &apos;2.8&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;0&apos; CM HEIGHT &apos;14&apos; CM WIDTH &apos;10.5&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;0&apos; CM HEIGHT &apos;14&apos; CM WIDTH &apos;13.6&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;0&apos; CM HEIGHT &apos;14&apos; CM WIDTH &apos;14.5&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BH</TDFORMAT>
+     <TDLINE>,,Material,,Descrição,,Quantidade,,UM,,Lote</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>LOGO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BITMAP &apos;ZLOGO_RENOVA_PEQUENO&apos; OBJECT GRAPHICS ID BMAP TYPE BMON</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BITMAP ZRENOVA_LOGO OBJECT ZWM ID ZREN TYPE BMON DPI 100</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ITEMS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&amp;TI_ZWM025-Material&amp;,,&amp;DESC_MATERIAL&amp;,,&amp;TI_ZWM025-Quantidade&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&amp;TI_ZWM025-Unidade&amp;,,&amp;TI_ZWM025-lote&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>OBS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Observações :&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>RENOVA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Renova :&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>TRANSP</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BS</TDFORMAT>
+     <TDLINE>&lt;B&gt;Transportador :&lt;/&gt;</TDLINE>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

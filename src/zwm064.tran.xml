@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZWM064</TCODE>
+    <PGMNA>Z1OMMP05_V4</PGMNA>
+    <DYPNO>0100</DYPNO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZWM064</TCODE>
+    <S_WIN32>X</S_WIN32>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>P</SPRSL>
+    <TCODE>ZWM064</TCODE>
+    <TTEXT>Bonus de Mercadoria</TTEXT>
+   </TSTCT>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>F</SPRSL>
+     <TTEXT>Bonus Marchandise</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

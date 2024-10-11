@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZWMFR001</ARBGB>
+    <MASTERLANG>P</MASTERLANG>
+    <STEXT>Classe de mensagens WM/RF França</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Utilizador &amp; não está atribuído/activo em nenhum armazém.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>O centro selecionado não contém depósitos WM ativos.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Utilizador &amp; não está atribuído/activo em nenhum armazém do centro.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Não foram encontradas ordens para os critérios de seleção usados.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Nenhuma das ordens possui um status válido. Sem dados a apresentar.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Não foram encontradas reservas para os critérios de seleção.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Não foram encontrados materiais válidos para as reservas selecionadas.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>O utilizador &amp; não possui materiais válidos no depósito &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Não foram encontrados dados para visualizar.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Selecionar uma linha apenas.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>ERRO: Ordem de compra &amp; inválido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>ERRO: Ordem de compra sem itens para processar!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>ERRO: N. paletes inválido! [1-99]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Não existem Tarefas para visualizar.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>A tarefa foi cancelada com sucesso.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>O nó selecionado não é válida. Selecionar um componente de uma ordem.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Já existe uma TO pendente para o material selecionado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Material &amp; não existe no depósito &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Número de paletes deverá ser superior a 0.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Não existem quantidades suficientes para criação das OT.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>ERRO: A palete &amp; não é válida para este processo</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Foram criadas &amp; tarefas com sucesso (paletes inseridas &amp;).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>A guia de remessa &amp; já foi processada na totalidade.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Erro na validação do material &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Existem informações pendentes. Informação será recuperada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Documento material  &amp; criado com sucesso</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Sucesso na criação das TOs de arrumação</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Erro na criação da TO</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Erro na criação do lote</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Falha ao criar a OT para UD &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Sucesso a criar OT para UD &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Falha a criar OT com origem em &amp; UD &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Sucesso a criar OT com origem em &amp; UD &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>ERRO: Utilizador &amp; não está atribuído ao armazém &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>ERRO: Utilizador &amp; não tem nenhum armazém atribuído!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>O armazém do utilizador &amp; é diferente do armazém do pedido de compra.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Guia de remessa &amp; não existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>O pedido &amp; com remessa &amp; já está em processamento por outro utilizador.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Existem informações pendentes. Informação será recuperada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>A UD já foi previamente inserida.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Ainda existem paletes por introduzir.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Erro na criação do documento de material.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Não existem UDs disponíveis.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Não foram encontrados valores de parametrização para o armazém &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>A UD não existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Ainda existem OT&apos;s pendentes de confirmação para a UD dada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Impossível determinar movimento WM. Verificar parametrização.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>ERRO: Quantidade excede o permitido (9999)!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>A Bobine do fornecedor já foi previamente inserida.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>O depósito introduzido não coincide com o Nº de depósito do utilizador.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>O lote do SSCC indicado não corresponde ao indicado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>A guia de remessa &amp; já foi processada na totalidade. Continuar?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Não existe OT em aberto para o SSCC &amp; no armazém &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>A OT do SSCC não é relevante para este equipamento.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Posição lida incorrecta.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Ler o SSCC da palete inferior.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Inconsistência na criação de OT&apos;s para remontadas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Não foi possível obter o sistema lógico EDI.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Não foi possível obter o ambiente SAP EDI.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Posição no pulmão incorrecta.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>A OT &amp; em aberto não é válida.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>SSCC &amp;1 não corresponde ao pretendido. Ler SSCC &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Posição de destino incorrecta.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Acção bloqueada pelo sistema. Tentar novamente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Preencher todos os Campos Obrigatórios</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Armazém do Utilizador &amp; inválido</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Existe uma OT em aberto para uma Posição de profundidade superior</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Tarefa &amp;/&amp; inválida</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>A UD &amp; não existe</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Material &amp; da UD &amp; não é igual ao Material solicitado (&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Quantidade &amp; da UD &amp; não é igual à Quantidade solicitada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Posição &amp; da UD &amp; não é igual à Posição de Origem solicitada (&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Não existe stock disponivel para efetuar a troca para o Lote &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Etiqueta de palete remontada &amp; inválida, deve ler a etiqueta de baixo</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>ZWMFR001</ARBGB>
+     <STEXT>Classe de mensagens WM/RF França</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Utilisateur &amp; n&apos;est pas attribué / actif sur aucun entrepôt</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>La division sélectionnée n&apos;a pas de magasins WM actifs</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Utilisateur &amp; n&apos;est pas attribué / actif sur aucun entrepôt de la divisio</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Pour les critères de sélections utilisés aucun ordre n&apos;a été trouvé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Aucun ordre avec statut valable. Sans données à présenter.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Pour les critéres sélectionnés aucune réserve n&apos;a été trouvée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Pour les réserves sélectionnées aucun matériel valable.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>L&apos;utilisateur &amp; n&apos;a pas de matériel valable dans le magasin &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Aucune donnée n&apos;a été trouvée pour visualiser.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Sélectionner seulement une ligne.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>ERREUR: Commande d&apos;achat &amp; non valable !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>ERREUR: Commande d&apos;achat sans éléments à traiter!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>ERREUR: N. Palettes non valables! [1-99]</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Inexistance de tâches à visualiser.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>La tâche a été annulée avec succès.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Noeud sélectionné invalide. Sélectionner un composant d&apos;un ordre.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Il existe déjà un TO en attente pour le matériel sélectionné.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Matériel &amp; n&apos;existe pas dans le magasin &amp;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Nombre de palettes devra être supérieur à 0.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Il n&apos;existe pas de quantités suffisantes pour création d&apos;OT.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>ERREUR: La palette &amp; n&apos;est pas valable pour ce processus</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT> &amp; Tâches ont été créées avec succès (palettes introduites &amp;).</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Le bon de livraison &amp; a été traité dans sa totalité.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Erreur dans la validation du matériel &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Il existe des informations en attente. L&apos;information sera récupérée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Document matériel &amp; créé avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Succès dans la création des TOs de rangement</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Erreur dans la création de la TO</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Erreur dans la création du lot</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Echec dans la création de l&apos;OT pour UD &amp;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Succès dans la création de l&apos;OT pour UD &amp;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Echec dans la création de l&apos;OT avec origine en &amp; UD &amp;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Succès dans la création de l&apos;OT avec origine en &amp; UD &amp;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>ERREUR: Utilisateur &amp; n&apos;est pas attribué à l&apos;entrepôt &amp;!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>ERREUR: Utilisateur &amp; n&apos;a aucun entrepôt attribué!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Entrepôt de l&apos;utilisateur &amp; différent de  l&apos;entrepôt de la commande d&apos;ach</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Bon de livraison &amp; inexistant.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>La demande &amp; avec expédition &amp; est déjà en cours de traitement par un aut</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Il existe des informations en attente. L&apos;information sera récupérée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>L&apos;UM á été préalablem. Introduite</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Il existe encore des pal.à introduire</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Erreur ds création du doc de matériel</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>N&apos;existe pas d&apos;UMs dispos.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Valeurs de paramétrage pas trouvées pour entrepôt &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>UD inexistant</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>OT&apos;s en attente de confirmation pour l&apos;UD donnée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Impossible déterminer mouv. WM. Vérifier paramétrage</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>ERREUR: Quantité dépasse l&apos;autorisé (9999)!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Bobine du fournisseur préalablement insérée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Magasin introduit ne coîncide pas avec nº magasin de l&apos;utilisateur.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Lot du SSCC ne correspond pas à l&apos;indiqué.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Le bon de livraison &amp; a été traité dans sa totalité. Continuer?</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Aucune OT en suspens pour SSCC &amp; magasin &amp;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>OT du SSCC pas pertinente pour cet equipement.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Position lue incorrecte.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Lire SSCC palette inferieure.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Incohérence dans création d&apos;OT&apos;s pour remontées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Pas possible obtenir système logique EDI.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Pas possible obtenir environnement SAP EDI</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Posit. Zone Tampon incorrecte</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>OT &amp; en suspens invalide.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>SSCC &amp;1 ne correspond pas au demandé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Position destination incorrect</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Action bloquée par Système. Essayez à nouveau.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Preencher todos os Campos Obrigatórios</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Entrepôt utilisateur &amp; et invalide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Existe uma OT em aberto para uma Posição de profundidade superior</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Remonté et étiquette de palette &amp; invalide, doit lire l&apos;étiquette du bas.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,2288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZWMMSG001</ARBGB>
+    <MASTERLANG>P</MASTERLANG>
+    <STEXT>Classe de Mensagens para WM/RF</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Lista de espera sem entradas !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Gestão de portas nao activa !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Erro! Utilizador não está associado a nenhum armazém!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Erro! Nao existem cargas !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Erro! Nao existem descargas !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Erro! Camião já em lista de descarga !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Erro! Documento de compra &amp; invalido !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Erro! Camião já em lista de carga !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Erro! Documento de compra &amp; sem items para serem processados !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>É obrigatória a introdução da matricula!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Erro! O transporte &amp; já foi finalizado!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Não existem portas desbloqueadas ! Escolha de camião não é possivel !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Não existem camiões na fila de espera! Escolha de camião não é possivel !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Não existem associações válidas entre tipos de camião e tipos de porta !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Erro! O camião &amp; já está a efectuar a operação na porta &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Erro!Deve utilizar a operação &quot;Atribuir Porta&quot; para associar porta livre!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Erro! É obrigatório a introdução da matrícula!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Erro! O carro indicado não se encontra em lista de espera!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Novo camião &amp; foi atribuido à porta &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Erro! Não é possivel associar um camião de Carga a uma porta de Descarga!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Erro! Não é possivel associar um camião de Descarga a uma porta de Carga!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Função não é possivél! Não foram libertas portas!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Erro! O camião &amp; já começou a operação de carga ! Atribuição impossivel!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Erro! Não e possivel efectuar a operação com o camião &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Erro! Não existem carros de Carga em lista de espera para atribuir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Erro! Não existem carros de Descarga em lista de espera para atribuir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Erro! Não existem carros adequados em fila de espera para atribuir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Erro! Não pode associar o camiao &amp; a duas portas!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Erro! Atribuição impossivel!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Erro! E obrigatoria a introducao do equipamento!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Erro! Equipamento &amp; inválido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Nao existem mais tarefas para executar ! Inserir equipamento.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Erro! Palete &amp; invalida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Erro! Posição &amp; invalida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Erro! E obrigatoria a introducao do Bin!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Erro! Pulmao &amp; incorrecto - diferente de Pulmao &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Erro! E obrigatorio a introducao do numero da Palete!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Erro! SU ja inserida !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Erro! Porta &amp; incorrecto - diferente de Porta &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Erro! Numero de paletes invalido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Erro! TO &amp; item &amp; ja confirmada !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Erro! TO &amp;  &amp; nao encontrada !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Erro! Pick ja efectuado para a TO &amp; item &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Erro! Ainda nao foi feito o pick para a TO &amp; item &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Erro! Operacao nao e possivel! Tem de completar a tarefa!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Erro! O material &amp; nao esta aberto para o armazem &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Erro! Não existe nenhum Centro/Deposito para o armazem &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Erro! Existe mais do que um Centro/Deposito para o armazem &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Erro! Ordem de Compra &amp; não existe!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Erro! Ordem de Compra &amp; não foi introduzida na portaria!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Erro! O Material &amp; não existe na Ordem de Compra &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Erro! O Pedido &amp; não pertence à mesma descarga!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Erro! Não existem dados para nenhuma descarga!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Erro!Não deram entrada em MM todos os materiais, nao é possivel fazer TO!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Erro! Ja foi efectuada uma descarga para o pedido &amp; talao &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Erro! Talão &amp; não existe ou ja foi finalizado!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Erro! Existe uma descarga com o talao &amp; que ainda não foi finalizada!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Erro! Ja foi efectuada uma descarga para o pedido &amp; item &amp; talao &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Erro! Tem de preencher o numero de talão!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Erro! Este número de talão não deu entrada no armazém!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Erro! Remessa &amp; não existe!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Erro! A Remessa &amp; não pertence à mesma descarga!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Erro! Ja foi efectuada uma descarga para a remessa &amp; item &amp; talao &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Erro! Ja foi efectuada uma descarga para a remessa &amp; talao &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Erro! O material &amp; não existe para o deposito &amp; / Centro &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Erro! Mesa errada - Mesa correcta &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Erro! As passwords são diferentes !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Erro! Codigo de incidencia &amp; invalido !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Erro! Nao existe nenhum materia para o ean &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Erro! Codigo de material &amp; invalido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Erro! SU &amp; invalida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Erro! Niveis diferentes para impressão! Imprimir posições do mesmo nível!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Erro! Falta conferir &amp; paletes! Deseja prosseguir ?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Erro! Pedido &amp; / Item &amp; não deu entrada na gestão de portaria !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Erro! Inserir numero de palete!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Erro! Tipo de palete &amp; não existe!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Erro! O material &amp; não é de embalagem!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Etiquetas criadas e impressas ! SU &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>Erro! As paletes ja estão todas conferidas!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>Erro! Conferidas mais paletes do que as descarregadas! Deseja prosseguir?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>Erro! Inserção de textos aclaratórios ainda não efectuada!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>Erro! Cliente &amp; não existe!!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>Erro! Lote &amp; nao criado!!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>Erro! O camiao com o talao &amp; ainda nao esta associado á porta!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Erro! O material &amp; não pertence ao pedido &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>Erro! O pedido &amp; não pertence a esta descarga !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>Erro! O tipo de palete &amp; não é permitido para o material &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Armazem cheio.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>Erro! A factura &amp; não existe !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Erro! Não existem devoluções para a selecção efectuada!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Erro! Obrigatório indicar número de cliente !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>Erro! Já existe uma ordem de descarga para a porta &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>Erro! Ainda não foi executada nenhuma conferência de paletes !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>Erro! Já foi colocada uma palete na posição &amp; do pulmão &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>Erro! Grupo(s) de remessa(s) não existe(m) !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>Erro! Grupo(s) de remessas sem fornecimentos !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>Erro! Só pode preencher um dos blocos de selecção!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>Erro! Não existem pulmões disponiveis para efectuar uma carga!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>O Grupo &amp; não pode ser liberado. Falta executar o relatorio de Carga!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Erro! O Grupo &amp; não foi liberado !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Erro! Não existem paletes de picking para os grupos seleccionados !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Erro! Equipamento &amp; não pode realizar recorridos de picking!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Não existem recorridos para executar ! Inserir equipamento !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>E preciso uma palete para executar o recorrido de picking !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>São precisas duas paletes para executar o recorrido de picking !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Erro! O número de palete &amp; já foi colocado !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Erro! O destino &amp; já foi colocado anteriormente !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Erro! Palete de destino tem de ser &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>Erro! Posições diferentes !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Erro! Destino do material na palete diferente do pretendido !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Erro! Não existe nenhuma palete com o nº &amp; para paletizar!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>Erro! Ainda falta realizar picking desta palete &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Erro! SSCC &amp; invalido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>Erro! Posição de destino diferente!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>Erro! A palete com o nº &amp; já está etiquetada !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Erro! Já foi efecutada uma rota de picking para o grupo &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Erro! O SSCC não é o que acabou de imprimir !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Erro! Zona &amp; invalida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>Erro! O SSCC &amp; não pertence a esta posição !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>Erro! Não é possivél passar do Lock &amp; para o Lock &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>Erro! Não é possivél alterar o destino das paletes do Grupo &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>Não vai adiantar o picking ?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>Erro! O Pulmão &amp; está ocupado !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>Erro! A Porta &amp; está ocupada !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>Erro! Os canais &amp; e &amp; não pertencem ao mesmo pulmão !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>Não existem transportes selecionados</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>127</MSGNR>
+     <TEXT>A Carga não tem transporte Associado!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>128</MSGNR>
+     <TEXT>Carga ainda nao esta preparada no pulmao!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>Já foi efectuada uma descarga para este talão &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>Não existem entradas para a selecção efectuada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>Tem de criar primeiro as paletes de picking!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>132</MSGNR>
+     <TEXT>Carga Directa! O Camião ainda não esta na Porta!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>133</MSGNR>
+     <TEXT>Carga Directa! Não é possivél alterar a porta!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>134</MSGNR>
+     <TEXT>A quantidade no ecrã difere da quantidade do interface. ACTUALIZAÇÂO!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>135</MSGNR>
+     <TEXT>Ean não existe!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>136</MSGNR>
+     <TEXT>A Ordem &amp; já se encontra activa</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>137</MSGNR>
+     <TEXT>A Ordem &amp; já se encontra activa e é incompatível com os dados da sessão</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>138</MSGNR>
+     <TEXT>A Ordem &amp; encontra-se bloqueada por &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>139</MSGNR>
+     <TEXT>Erro de sistema ao bloquear ordem &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>Erro não especificado ao bloquear ordem &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>141</MSGNR>
+     <TEXT>Lote não é valido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>142</MSGNR>
+     <TEXT>A quantidade introduzida não existe no lote &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>143</MSGNR>
+     <TEXT>Quantidade Invalida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>144</MSGNR>
+     <TEXT>Atenção o Pulmão exterior para esta Carga está Ocupado!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>145</MSGNR>
+     <TEXT>Posição no Pulmão Incorrecta!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>146</MSGNR>
+     <TEXT>ERRO: Nº Depósito Inválido !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>147</MSGNR>
+     <TEXT>Não existem dados para processar !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>148</MSGNR>
+     <TEXT>ERRO: Create Container</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>149</MSGNR>
+     <TEXT>ERRO: Create Object Tree</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>ERRO: Register Events</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>A Carga ainda não tem porta atribuida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>Não existem alterações</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>153</MSGNR>
+     <TEXT>Tem de lêr o sscc de baixo!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>154</MSGNR>
+     <TEXT>Os dados estão bloqueados por usuário &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>Não pode colocar um estado inferior ao existente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>156</MSGNR>
+     <TEXT>Não existem parametros definidos para este processo (tabela &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>157</MSGNR>
+     <TEXT>O Deposito &amp; não existe no Centro &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>158</MSGNR>
+     <TEXT>Não existe lote com qtd &amp; suficiente para a transferencia do deposito &amp; .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>159</MSGNR>
+     <TEXT>A carga do Grupo &amp; ainda não esta toda preparada no pulmão !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>160</MSGNR>
+     <TEXT>Carga &amp; invalida !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>161</MSGNR>
+     <TEXT>O Grupo &amp; não necessita de Paletização Especial.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>162</MSGNR>
+     <TEXT>O Grupo &amp; ainda não tem nenhum transporte !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>163</MSGNR>
+     <TEXT>O carro ainda não está na porta !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>164</MSGNR>
+     <TEXT>Carga ainda nao está totalmente preparada no carro!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>165</MSGNR>
+     <TEXT>Quantidade &amp; Invalida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>166</MSGNR>
+     <TEXT>Paletização Especial ja está finalizada !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>167</MSGNR>
+     <TEXT>Não existem materiais para Paletizar!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>168</MSGNR>
+     <TEXT>Pulmão Invalido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>169</MSGNR>
+     <TEXT>Erro! Sem pedido de compra válido, para o material &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>170</MSGNR>
+     <TEXT>Paletização Concluida !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>171</MSGNR>
+     <TEXT>Erro! A impressora &amp; não existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>172</MSGNR>
+     <TEXT>Erro! A impressão do SSCC não foi efectuada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>173</MSGNR>
+     <TEXT>Imp. para o pulmao &amp; não esta definida - retirar na &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>174</MSGNR>
+     <TEXT>Transporte &amp; Invalido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>175</MSGNR>
+     <TEXT>Já existe uma palete nessa posição !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>176</MSGNR>
+     <TEXT>Pulmão correcto é o &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>177</MSGNR>
+     <TEXT>Status Invalido ! Grupo &amp; é de Carga Directa !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>178</MSGNR>
+     <TEXT>Erro! Impossível encontrar SSCC &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>179</MSGNR>
+     <TEXT>Erro! Sem dados de detalhe para o SSCC &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>180</MSGNR>
+     <TEXT>Erro! O SSCC &amp; não está em nenhuma Posição/Remessa!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>181</MSGNR>
+     <TEXT>Erro! Não foi encontrada a 2º palete remontada!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>182</MSGNR>
+     <TEXT>Falta efectuar os recorridos para o Grupo &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>183</MSGNR>
+     <TEXT>Erro! Já foi efectuado o recorrido para o Grupo &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>184</MSGNR>
+     <TEXT>Contactar Gestor de Stock.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>185</MSGNR>
+     <TEXT>ERRO: Posição &amp; &amp; já possui um documento de inventário em curso!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>186</MSGNR>
+     <TEXT>ERRO: Posição &amp; &amp; possui quantidades correctas!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>187</MSGNR>
+     <TEXT>ERRO: Tem de seleccionar pelo menos uma entrada!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>188</MSGNR>
+     <TEXT>ERRO: Posição &amp; bloqueada para entrada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>189</MSGNR>
+     <TEXT>ERRO: Posição &amp; bloqueada para saída.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>190</MSGNR>
+     <TEXT>ERRO: Posição &amp; bloqueada para inventário.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>191</MSGNR>
+     <TEXT>ERRO: Posicao &amp; não existe ou inválida.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>192</MSGNR>
+     <TEXT>Perfil de RF não esta criado LRFMD!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>193</MSGNR>
+     <TEXT>ERRO: Não existem doc. de inventário para a posicao &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>194</MSGNR>
+     <TEXT>Já existe uma palete nessa posição com outro tipo de palete !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>195</MSGNR>
+     <TEXT>O Grupo já foi processado!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>196</MSGNR>
+     <TEXT>Não existem dados para processar !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>197</MSGNR>
+     <TEXT>Bin Inválido !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>198</MSGNR>
+     <TEXT>Material &amp; não existe na posição &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>199</MSGNR>
+     <TEXT>Não pode juntar o material &amp; com um material de pick variavel!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Nesta palete não pode colocar materiais de pick variavel !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>Material &amp; já está colocado na palete!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>202</MSGNR>
+     <TEXT>Palete Completa, não é permitido juntar mais materiais!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>203</MSGNR>
+     <TEXT>Não pode juntar uma palete completa a outros materiais.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>Não pode juntar mais paletes !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>205</MSGNR>
+     <TEXT>Não existem posições para o &amp; disponiveis!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>206</MSGNR>
+     <TEXT>Não existem posições no Rep Disponiveis !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>207</MSGNR>
+     <TEXT>Não existem posições no PPK Disponiveis !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>208</MSGNR>
+     <TEXT>Não pode desbloquear para o PPK, não tem paletes completas!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>209</MSGNR>
+     <TEXT>Desbloqueio Invalido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>210</MSGNR>
+     <TEXT>As remessas do grupo &amp; já tem todas as to´s criadas.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>211</MSGNR>
+     <TEXT>Aguarde, reabastecimentos em curso para o grupo &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>212</MSGNR>
+     <TEXT>O Grupo &amp; não pode ser liberado. Falta Criar Transporte!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>213</MSGNR>
+     <TEXT>O SSCC não pertence a esta Carga!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>214</MSGNR>
+     <TEXT>Mesa &amp; invalida !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>215</MSGNR>
+     <TEXT>SSCC &amp; invalido !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>216</MSGNR>
+     <TEXT>ERRO - Ver Log de Produção !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>217</MSGNR>
+     <TEXT>Armazem &amp; inválido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>218</MSGNR>
+     <TEXT>O grupo já está liberado!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>219</MSGNR>
+     <TEXT>O Material &amp; não tem classificação ABC !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>220</MSGNR>
+     <TEXT>Utilizador &amp; não autorizado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>221</MSGNR>
+     <TEXT>Utilizador inválido</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>222</MSGNR>
+     <TEXT>Não pode desbloquear pq existem OT´s partidas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>223</MSGNR>
+     <TEXT>Erro! Posição &amp; não tem material atribuido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>224</MSGNR>
+     <TEXT>Erro! Posição &amp; encontra-se vazia</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>225</MSGNR>
+     <TEXT>Erro! Mais do que 1 material atribuido à posição &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>226</MSGNR>
+     <TEXT>Erro! Quanto &amp; bloqueado!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>227</MSGNR>
+     <TEXT>Erro! Posição &amp; bloqueada!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>228</MSGNR>
+     <TEXT>Quantidade de reabastecimento do material &amp; atingida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>229</MSGNR>
+     <TEXT>Erro! Posição não pode ser a mesma!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>230</MSGNR>
+     <TEXT>Erro! Condições materiais incompativeis!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>231</MSGNR>
+     <TEXT>Não existe stock em MM para o material &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>232</MSGNR>
+     <TEXT>Não existe stock em WM para o material &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>233</MSGNR>
+     <TEXT>Erro! Tipo depósito destino &amp; não permitido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>234</MSGNR>
+     <TEXT>Erro! Material &amp; não tem posição de picking atribuida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>235</MSGNR>
+     <TEXT>Erro! Posição &amp; não é posição de picking do material &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>236</MSGNR>
+     <TEXT>Erro! Erro na palete remontada!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>237</MSGNR>
+     <TEXT>Erro! Já existem Ot&apos;s Criadas!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>238</MSGNR>
+     <TEXT>Erro! Posição &amp; tem mais que um material associado!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>239</MSGNR>
+     <TEXT>Erro! Posição &amp; não pertence ao tipo de depósito &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>240</MSGNR>
+     <TEXT>Erro! Posição &amp; inexistente!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>241</MSGNR>
+     <TEXT>Erro! SSCC &amp; sem conteudo!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>242</MSGNR>
+     <TEXT>Erro comunicação com Display Portaria!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>243</MSGNR>
+     <TEXT>Erro, existem ot´s partidas para o grupo &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>244</MSGNR>
+     <TEXT>Erro na inserção! Porta: &amp;     Talão: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>245</MSGNR>
+     <TEXT>Erro na eliminação! Porta: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>246</MSGNR>
+     <TEXT>Entrada -&gt; Porta: &amp;     Talão: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>247</MSGNR>
+     <TEXT>Saída &lt;- Porta: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>248</MSGNR>
+     <TEXT>Sucesso comunicação Display Portaria. Nº registos: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>249</MSGNR>
+     <TEXT>Acesso bloqueado pelo user &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>250</MSGNR>
+     <TEXT>Erro! Material &amp; invalido para EAN &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>251</MSGNR>
+     <TEXT>Erro! Posição não é a de picking do material &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>252</MSGNR>
+     <TEXT>Erro! Material &amp; sem dados de picking!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>253</MSGNR>
+     <TEXT>Erro! SSCC repetido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>254</MSGNR>
+     <TEXT>Remessa &amp; bloqueada por &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>255</MSGNR>
+     <TEXT>Não esta definido o tipo de carga para o grupo &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>256</MSGNR>
+     <TEXT>Encontram-se &amp; pal no tapete, só são permitidos &amp; grupos com prioridade!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>257</MSGNR>
+     <TEXT>Tipo de Carga &amp; invalido !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>258</MSGNR>
+     <TEXT>Carga para o PPK só é possivél para Tipo de Carga PUL !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>259</MSGNR>
+     <TEXT>SSCC &amp; não começa por 00 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>260</MSGNR>
+     <TEXT>SSCC invalido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>261</MSGNR>
+     <TEXT>Tipo de deposito de origem &amp; incorrecto!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>262</MSGNR>
+     <TEXT>Tipo de deposito de destino &amp; incorrecto!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>263</MSGNR>
+     <TEXT>Transferência realizada com sucesso!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>264</MSGNR>
+     <TEXT>Carga com mais que um cliente !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>265</MSGNR>
+     <TEXT>Carga com paletização especial !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>266</MSGNR>
+     <TEXT>Aguarde, reabastecimentos em curso para o Grupo &amp; material &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>267</MSGNR>
+     <TEXT>Optimização não é possivel!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>268</MSGNR>
+     <TEXT>ERRO: Ordem de produção &amp; inválida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>269</MSGNR>
+     <TEXT>ERRO: Ordem de produção &amp; sem material atribuído!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>270</MSGNR>
+     <TEXT>ERRO: Material &amp; da palete diferente do material &amp; da ordem de produção!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>271</MSGNR>
+     <TEXT>Não é possivél determinar SSCC para devolver o resto de produção !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>272</MSGNR>
+     <TEXT>O carro já está registado na portaria !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>273</MSGNR>
+     <TEXT>Obrigatorio preencher o Grupo ou a Remessa ou a Fatura.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>274</MSGNR>
+     <TEXT>Sem dados para processar para os criterios utilizados!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>275</MSGNR>
+     <TEXT>Sem remessas para os criterios utilizados!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>276</MSGNR>
+     <TEXT>Sem ordens de cliente para os criterios utilizados!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>277</MSGNR>
+     <TEXT>Falta criar OT para material &amp; da Rem &amp; / item &amp;. Deseja liberar grupo &amp;?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>278</MSGNR>
+     <TEXT>Mat &amp; - Não foi possível determinar posição de depósito de origem</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>279</MSGNR>
+     <TEXT>Material &amp; da palete não existe na remessa &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>280</MSGNR>
+     <TEXT>SSCC &amp; inválido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>281</MSGNR>
+     <TEXT>Inserir numero de impressões</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>282</MSGNR>
+     <TEXT>Obrigatorio preencher Remessa.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>283</MSGNR>
+     <TEXT>É necessário 1 caixa</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>284</MSGNR>
+     <TEXT>Código EAN &amp; inválido</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>285</MSGNR>
+     <TEXT>Posição vazia</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>286</MSGNR>
+     <TEXT>Foi criada a Remessa &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>287</MSGNR>
+     <TEXT>SSCC &amp; já adicionado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>288</MSGNR>
+     <TEXT>Sem quantos na posição &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>289</MSGNR>
+     <TEXT>Quantidade não está disponível</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>290</MSGNR>
+     <TEXT>Erro na criaçao da OT</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>291</MSGNR>
+     <TEXT>Sucesso na tranf com Doc Mat &amp; e OT &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>292</MSGNR>
+     <TEXT>Depósito &amp; inválido</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>293</MSGNR>
+     <TEXT>Não existe stock para o material &amp; no deposito &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>294</MSGNR>
+     <TEXT>Não existe stock para o material &amp; no deposito &amp; e posição &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>295</MSGNR>
+     <TEXT>ERRO: Não exite numero de ordem para a linha</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>296</MSGNR>
+     <TEXT>Existem OTs pendentes para paletes de profundidade inferior</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>297</MSGNR>
+     <TEXT>Carro carregado com Sucesso</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>298</MSGNR>
+     <TEXT>Erro ao carregar carro</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>299</MSGNR>
+     <TEXT>Carga por concluir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>Leitura da carga já efetuada!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>301</MSGNR>
+     <TEXT>Não foi possivel reabastecer o PKL do material &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>302</MSGNR>
+     <TEXT>Não existe nenhuma ordem/Centro de custo &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>303</MSGNR>
+     <TEXT>Numero de empregado &amp; inválido !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>304</MSGNR>
+     <TEXT>Código de Material &amp; inválido !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>305</MSGNR>
+     <TEXT>Lote &amp; não existe para o material &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>306</MSGNR>
+     <TEXT>Quantidade &amp; inferior ao stock disponivel</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>307</MSGNR>
+     <TEXT>Centro &amp;, Deposito &amp; geridos por WM. Mov Impossivel!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>308</MSGNR>
+     <TEXT>Grupo &amp; inválido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>309</MSGNR>
+     <TEXT>Remessa &amp; não pertence ao grupo &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>310</MSGNR>
+     <TEXT>Remessa &amp; com picking completo.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>311</MSGNR>
+     <TEXT>Palete &amp; pertence ao armazém &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>312</MSGNR>
+     <TEXT>Quantidade &amp; da palete é superior à quantidade &amp; disponivel da remessa.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>313</MSGNR>
+     <TEXT>Palete &amp; já foi contabilizada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>314</MSGNR>
+     <TEXT>Palete &amp; já foi contabilizada na remessa &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>315</MSGNR>
+     <TEXT>Deseja sair da remessa &amp; ?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>316</MSGNR>
+     <TEXT>Utilizador &amp; está a processar remessa &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>317</MSGNR>
+     <TEXT>Palete &amp; com packing efetuado para remessa &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>318</MSGNR>
+     <TEXT>Picking de &amp; palete(s) efetuado com sucesso!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>319</MSGNR>
+     <TEXT>Obtida quantidade total de picking da remessa &amp; para o material &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>320</MSGNR>
+     <TEXT>Palete remontada. Picar SSCC &amp; de palete de baixo.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>321</MSGNR>
+     <TEXT>Sem items da remessa para efetuar o picking.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>322</MSGNR>
+     <TEXT>Grupo &amp; sem remessas com paletes para embalamento e saida mercadoria!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>323</MSGNR>
+     <TEXT>Utilizador &amp; está a processar grupo &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>324</MSGNR>
+     <TEXT>Remessa &amp; sem o picking efetuado!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>325</MSGNR>
+     <TEXT>Grupo &amp; sem remessas para embalamento e saida de mercadoria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>326</MSGNR>
+     <TEXT>Embalamento e saida de mercadoria efetuados com sucesso!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>327</MSGNR>
+     <TEXT>Grupo &amp; - Remessa &amp; sem picking completo</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>328</MSGNR>
+     <TEXT>Partição de Lote &amp; não foi possível na Remessa para Material &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>329</MSGNR>
+     <TEXT>Palete remontada. Deseja só efetuar o picking de uma palete?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>330</MSGNR>
+     <TEXT>Foram eliminados &amp; SSCCs com sucesso!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>331</MSGNR>
+     <TEXT>Palete &amp; não foi registada para eliminar!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>332</MSGNR>
+     <TEXT>Palete &amp; já foi embalada na remessa &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>333</MSGNR>
+     <TEXT>(SIM) - SSCC: &amp; / (NAO) - SSCC: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>334</MSGNR>
+     <TEXT>Nº de requisitante &amp; inválido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>335</MSGNR>
+     <TEXT>Nº de empregado é obrigatório!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>336</MSGNR>
+     <TEXT>Nº de requisitante é obrigatório!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>337</MSGNR>
+     <TEXT>Nº de empregado &amp; inválido ou ñ associado a &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>338</MSGNR>
+     <TEXT>Tipo depósito &amp; não é válido para picking!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>339</MSGNR>
+     <TEXT>Não existe stock para o EAN &amp; no deposito &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>340</MSGNR>
+     <TEXT>Não existe stock para posição &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>341</MSGNR>
+     <TEXT>Posição &amp; com material &amp; diferente!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>342</MSGNR>
+     <TEXT>Tranferência &amp; efetuada com sucesso!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>343</MSGNR>
+     <TEXT>Não é permitido a utilização de lotes não valorizados (MNV)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>344</MSGNR>
+     <TEXT>Material/s não existe/m no tipo de deposito &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>345</MSGNR>
+     <TEXT>Não existem acertos possiveis para o tipo de deposito &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>346</MSGNR>
+     <TEXT>Acerto realizado com sucesso!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>347</MSGNR>
+     <TEXT>Tipo/s de Depósito/s inválidos!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>348</MSGNR>
+     <TEXT>Código da Posição(&amp;) Inválido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>349</MSGNR>
+     <TEXT>Error, existem OT&apos;s com quantidades inferiores à UMB!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>350</MSGNR>
+     <TEXT>Erro a reabstecer PKL</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>351</MSGNR>
+     <TEXT>Rotação de Material &amp; sem Ponto WCS definido (ZWM010).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>352</MSGNR>
+     <TEXT>Para SU &amp; não existe nenhuma OT em aberto</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>353</MSGNR>
+     <TEXT>SU &amp; não pertence à posição &amp; de chamada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>354</MSGNR>
+     <TEXT>Para SU &amp; não existe nenhuma chamada criada!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>355</MSGNR>
+     <TEXT>OT &amp; confirmada com sscc &amp; material &amp; lote &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>356</MSGNR>
+     <TEXT>Erro no pick da OT &amp; com sscc &amp; material &amp; lote &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>357</MSGNR>
+     <TEXT>Criação OT &amp; de saida de palete picking &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>358</MSGNR>
+     <TEXT>Erro no pick da OT &amp; da palete remontada &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>359</MSGNR>
+     <TEXT>Desbloqueio de &amp; somente possivel em desbloqueio de &amp; (&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>360</MSGNR>
+     <TEXT>Reabastecimento em curso</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>361</MSGNR>
+     <TEXT>Grupo &amp; não liberado, volter a correr botão de Criação de Tarefas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>362</MSGNR>
+     <TEXT>Trabalho Liberado com sucesso</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>363</MSGNR>
+     <TEXT>SSCC &amp; não se encontra bloqueado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>364</MSGNR>
+     <TEXT>Palete remontada para o PRM. Arrumar primeiro palete de cima</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>365</MSGNR>
+     <TEXT>Cli: &amp; Mat: &amp; - Falta &amp; &amp; Pal. Especial por concluir.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>366</MSGNR>
+     <TEXT>O utilizador &amp; já está a processar &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>367</MSGNR>
+     <TEXT>Material &amp; de Palete inválido!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>368</MSGNR>
+     <TEXT>Gerado IDOC de estorno da OT &amp; de saida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>369</MSGNR>
+     <TEXT>Aguardar chegada de palete à posição &amp; da gravitica.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>370</MSGNR>
+     <TEXT>Para SU &amp; não existe OT de entrada no WCS</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>371</MSGNR>
+     <TEXT>Erro ao cancelar ot &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>372</MSGNR>
+     <TEXT>Para SU &amp; não existe OT de picking de entrada no WCS</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>373</MSGNR>
+     <TEXT>ERRO: Posição de destino &amp; não permitida!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>374</MSGNR>
+     <TEXT>Deseja ETIQUETAR a palete no WCS ?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>375</MSGNR>
+     <TEXT>Deseja ENVOLVER a palete no WCS ?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>376</MSGNR>
+     <TEXT>Grupo &amp; com Paletes de Paletização Especial na estação do automático</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>377</MSGNR>
+     <TEXT>O Grupo &amp; já foi liberado para o Armazém Automático (WCS).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZWMMSG001</ARBGB>
+     <MSGNR>378</MSGNR>
+     <TEXT>Não é permitido para carga de Gravítica!</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

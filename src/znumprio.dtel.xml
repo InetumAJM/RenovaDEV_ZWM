@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZNUMPRIO</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <HEADLEN>21</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>21</SCRLEN3>
+    <DDTEXT>Numero de prioridades</DDTEXT>
+    <REPTEXT>Numero de prioridades</REPTEXT>
+    <SCRTEXT_S>Num Prio</SCRTEXT_S>
+    <SCRTEXT_M>Numero de prioridade</SCRTEXT_M>
+    <SCRTEXT_L>Numero de prioridades</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <DATATYPE>NUMC</DATATYPE>
+    <LENG>000002</LENG>
+    <OUTPUTLEN>000002</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

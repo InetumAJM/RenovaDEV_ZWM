@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>YWM001</ARBGB>
+    <MASTERLANG>P</MASTERLANG>
+    <STEXT>Mensagens WM</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>*** Diversos ***</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Leitura sem SSCC válido</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>SU &amp; sem Tarefas Pendentes</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>SU &amp; com Tarefas Pendentes</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>SU &amp; já esteve presença no Armazém</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>SU &amp; já Transferida para a Produção</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>SU &amp; já Carregada no Grupo &amp; Remessa &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>SU &amp; foi transferida para diferenças (999)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>SU &amp; nunca deu entrada em Armazém</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>SU &amp; não presente em Armazém</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>SU &amp; não se encontra no Tipo de Depósito &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>SU &amp; não se encontra na Posição &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>SU &amp; já presente em Armazém</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>SU &amp; não é a pretendida</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Material &amp; não ampliado para o Sistema de Depósito &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>SU &amp; não é Homogenea</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>SU &amp; é Homogenea</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Posição &amp; inválida</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Posição/Volume &amp; inválida(o)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Posição &amp; não é a esperada (&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Posição &amp; não pertence ao Tipo Depósito &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Material &amp; sem Quantidade de Paletização mantida</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Sem Quantos a apresentar</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>HU &amp; inválida</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>HU &amp; já existente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>HU &amp; inexistente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>HU &amp; não é a pretendida (&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>HU &amp; encontra-se embalada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>HU &amp; encontra-se vazia</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Volume &amp; existe como HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>HU &amp; com SU em Posições distintas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Não foi possivel determinar Tipo de Deposito para Posição &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Volume &amp; inválido</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>SU &amp; existente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>SU &amp; não se encontra no Tipo de Depósito &amp; Posição &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Posição &amp; bloqueada para Entradas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Posição &amp; bloqueada para Saídas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Posição &amp; não bloqueada para Entradas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Posição &amp; não bloqueada para Saídas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Posição &amp; bloqueada para Inventário</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Volume &amp; não existe como HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Utilizador &amp; inválido</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Posição &amp; com OT&apos;s pendentes</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>P</SPRSL>
+     <ARBGB>YWM001</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Posição &amp; sem OT&apos;s pendentes</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

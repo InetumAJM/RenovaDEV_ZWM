@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZETIQ_MONO</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>21</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>21</SCRLEN3>
+    <DDTEXT>Etiqueta Mono Produto</DDTEXT>
+    <REPTEXT>Etiqueta Mono Produto</REPTEXT>
+    <SCRTEXT_S>Mono Prod</SCRTEXT_S>
+    <SCRTEXT_M>Etiqueta Mono Prod</SCRTEXT_M>
+    <SCRTEXT_L>Etiqueta Mono Produto</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Grupo de Funções de Ordenações Especiais</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZWMFUNC10TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZWMFUNC10</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZWM_PALLET_SPECIAL_CASE_SORT</FUNCNAME>
+     <SHORT_TEXT>Ordenação especial na Criação de Paletes</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CT_ZPALETE_PICKING</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZPALETE_PICKING_TT</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_PROCESSED</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FLAG</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>E_PROCESSED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flag geral</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CT_ZPALETE_PICKING</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ordenação de Paletes</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

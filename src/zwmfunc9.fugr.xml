@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funções auxiliares para calc.paletes</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZWMFUNC9F01</SOBJ_NAME>
+    <SOBJ_NAME>LZWMFUNC9TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZWMFUNC9</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZWM_ACTUALIZA_PAL_GRUPO</FUNCNAME>
+     <SHORT_TEXT>Actualiza o total de  paletes por grupo</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>LGNUM</PARAMETER>
+       <DBFIELD>T311-LGNUM</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>REFNR</PARAMETER>
+       <DBFIELD>T311-REFNR</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ACTUALIZACAO_ZWM0028</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>LGNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nºdepósito/complexo de depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>REFNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Grupo</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ACTUALIZACAO_ZWM0028</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro na actualização da tabela ZWM028</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZWM_CALCULA_PALETE</FUNCNAME>
+     <SHORT_TEXT>Cálculo do número de paletes de picking e completas</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <DBFIELD>LTAK-LGNUM</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ACTUALIZA</PARAMETER>
+       <DBFIELD>ZWM_AUX-ACTUALIZA</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>REMONTADA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FLAG</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ZPALETE_PICKING</PARAMETER>
+       <DBSTRUCT>ZPALETE_PICKING</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nºdepósito/complexo de depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ACTUALIZA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flag indicadora de Actualização</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>REMONTADA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flag Indicadora para validar remontadas</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ZPALETE_PICKING</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura auxiliar ao cálculo das paletes de picking</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

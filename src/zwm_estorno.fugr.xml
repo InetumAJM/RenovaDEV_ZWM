@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Estorno de documentos</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLZWM_ESTORNO</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZWM_ESTORNA_DOC_MATERIAL_EMAIL</FUNCNAME>
+     <SHORT_TEXT>Estorno de documentos com envio de email</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MBLNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MBLNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MJAHR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MJAHR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>BWART</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BWART</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>BUDAT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BUDAT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>IT_DOCU</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZWM_TT_DOCU_YEAR</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MBLNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº documento de material</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MJAHR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ano do documento do material</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BWART</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de movimento (administração de estoques)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BUDAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Data de lançamento no documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_DOCU</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de tabela documentos /ano Migo</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parâmetro de retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

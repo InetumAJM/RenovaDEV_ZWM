@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 1 PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 1 PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BC</TDFORMAT>
+     <TDLINE>&amp;BARCODE-01-BC&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>BT</TDFORMAT>
+     <TDLINE>&amp;BARCODE-01-TXT&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>SSCC</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 1 PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>ST</TDFORMAT>
+     <TDLINE>SSCC:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>D2</TDFORMAT>
+     <TDLINE>&amp;EAN128-EXIDV&amp;</TDLINE>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

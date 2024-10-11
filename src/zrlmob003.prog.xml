@@ -1,0 +1,1722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZRLMOB003</NAME>
+    <SUBC>1</SUBC>
+    <APPL>L</APPL>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Qtd.modificada</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Item encontrado</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Já contado</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Contado zero</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>UD mista</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Contagem parcial</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Procmto.dados em terminal portátil: contagem de inventário</ENTRY>
+     <LENGTH>58</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Mge geändert</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Pos. gefunden</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Bereits gezählt</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Gezählt b. null</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Misch-LE</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Teilgezählt</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Mobile Datenverarbeitung: Inventurzählung</ENTRY>
+       <LENGTH>41</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Qty changed</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Item found</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Already counted</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Counted to zero</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Mixed SU</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Partially counted</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Mobile Computing: Inventory counting</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Qté modifiée</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Poste trouvé</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Déjà compté</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Compté - zéro</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>US hétérogène</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Comptés en partie</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Traitement mobile des données : comptage</ENTRY>
+       <LENGTH>41</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Ctd.modificada</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Pos.existente</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Ya contado</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Contado hasta 0</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>UA mixta</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Recuento parcial</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Proceso de datos portátil: Recuento de inventario</ENTRY>
+       <LENGTH>49</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>ZRLMOB003</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00083</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZRLMOB003</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DESCRIPTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit diesem Programm können Sie die Bestände auf den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.Lagerplatz&gt;Lagerplätzen&lt;/&gt; im Lager zählen. Das Programm</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unterstützt mobile Datenerfassungsgeräte. Sie können die Bestände</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zählen, indem Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526C13FAFAB52B9E10000009B38F974&gt;Lagereinheitennummern&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(LE-Nummern) eingeben. Auf einem zweiten Detailbld können Sie bei</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bedarf bestimmte Mengen ändern.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können die LE-Nummern durch Einscannen eines Barcodes erfassen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dieser Report ist Teil der Funktechnikunterstützung (Radio Frequency,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>RF) in R/3 und kann über die Menütransaktion &lt;LS&gt;LM01&lt;/&gt; (&lt;LS&gt;Inventur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>-&gt; LE-Zählung&lt;/&gt; oder &lt;LS&gt;LE-Zählung geführt&lt;/&gt;) aufgerufen werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>LE-Zählung systemgeführt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Transaktion &lt;ZH&gt;LE-Zählung geführt&lt;/&gt; sucht nach aktiven</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Inventuraufnahmebelegen, die noch nicht (vollständig) gezählt wurden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und dem Namen des aktuellen Benutzers zugeordnet sind. Der Benutzer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>wird dann zum ersten Lagerplatz geführt, für den Zählergebnisse erfaßt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden müssen. Der Lagerplatz muß durch Einscannen eines Barcodes oder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>durch Eingabe eines entsprechenden gültigen Verifizierungswerts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verifiziert werden. Anschließend können Sie LE-Nummern im System</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>erfassen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System schlägt nur dann den nächsten Platz vor, wenn die Bestände</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>auf einem Platz vollständig gezählt wurden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>LE-Zählung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit der Transaktion &lt;ZH&gt;LE-Zählung&lt;/&gt; kann der Benutzer einen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bestimmten (zu zählenden) Lagerplatz angeben, der nicht im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Inventuraufnahmebeleg aufgelistet ist. Das System verlangt dennoch auch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Zählung aktiver Inventuraufnahmebelege. Wenn Sie Lagernummer,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Lagertyp und Lagerplatz geprüft haben, können Sie die LE-Nummern im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>System erfassen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Eine SET/GET-Parameter-ID ist für die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526C148AFAB52B9E10000009B38F974&gt;Lagernummer&lt;/&gt; und den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526C14FAFAB52B9E10000009B38F974&gt;Lagertyp&lt;/&gt; aktiv, so daß Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>den Lagerplatz nach der ersten Eingabe nur dann angeben müssen, wenn</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie einen Platz auswählen. Da Sie den barcodierten Lagerplatz benutzen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>können, wird die Erfassung dieser Daten vereinfacht.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Benutzung der Transaktionen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn Sie die LE-Nummern eingegeben haben, können Sie die Daten sichern</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>oder sich die Details pro Zeile anzeigen lassen, indem Sie eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bestimmte LE-Nummer auswählen. Sie können Detaildaten eingeben oder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ändern. Wenn Sie ein nicht aufgelistetes Material auf dem Platz finden,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>können Sie es auf dem Detailbild erfassen. Die eingegebenen Daten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden im System auf ihre Konsistenz überprüft. Sie können die Daten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>nur dann sichern, wenn die Konsistenzprüfung erfolgreich ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;LS&gt;PLTZ LEER&lt;/&gt; zeigt alle weiterhin noch buchmäßig geführten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>LE-Nummern an, für die eine Zählmenge von null ermittelt wurde. Wenn</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie alle LEs eingegeben haben, die Sie auf dem Platz vorgefunden haben,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>wählen Sie &lt;LS&gt;PLTZ LEER&lt;/&gt;, um zu überprüfen, ob noch weitere LEs</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vorhanden sein sollten. Werden keine angezeigt, SICHERN Sie die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ergebnisse. Im anderen Fall müssen Sie die LEs überprüfen. Wenn sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tatsächlich fehlen, SICHERN Sie die Daten, um dem System diese</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Differenzen mitzuteilen. Falls Sie eine LE übersehen haben, müssen Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Menge auf dem Detailbild eingeben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Diese Funktion kann nur bei lagereinheitenverwalteten Lagertypen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>benutzt werden. Wenn Sie nicht mit LE-verwalteten Beständen arbeiten,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>schauen Sie sich die Dokumentation zum Programm</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:RE.RLMOB004&gt;RLMOB004&lt;/&gt; an.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei dieser Funktion erstellen und aktivieren Sie Inventuraufnahmebelege</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>im System wie gewohnt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei der systemgeführten Alternative müssen Sie den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Inventuraufnahmebelegen Benutzer zuordnen, bevor Sie sie aktivieren.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die systemgeführte Variante erfordert eine Eingabe in das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Verifizierungsfeld für den Lagerplatz. Das Verifizierungsfeld wird im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Lagerplatzsatz gepflegt. Unterstützt wird dies durch den Report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:RE.RLVERIFY&gt;RLVERIFY&lt;/&gt;, der es Ihnen ermöglicht, das Feld zu</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>füllen. Dabei stehen drei Optionen zur Verfügung. Sie können folgendes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verwenden:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Lagerplatzkoordinaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Teil der Lagerplatzkoordinaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Customer-Exit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Da die Mengen nicht explizit erfaßt werden müssen, müssen Sie die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Anwendung dieses Verfahrens mit ihrem Wirtschaftsprüfer abstimmen. Je</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>weniger Sie auf den Lagertyp zugreifen und je mehr Sie mit vollen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Paletten arbeiten, desto genauer ist das Ergebnis.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Fehlerfall wird eine Meldung ausgegeben. Sie können fehlende oder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>falsche Daten pflegen. Treten keine Fehler auf, schreibt das System die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Inventurzählergebnisse in der Datenbank fort und zeigt eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entsprechende Meldung an.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Achtung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das Dialogfenster im SAP-Standardsystem, das normalerweise erscheint,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>wurde bei dieser Funktion deaktiviert. Deshalb sollten Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;ZURÜCK&lt;/&gt; mit Vorsicht wählen. Wenn Sie &lt;LS&gt;ZURÜCK&lt;/&gt; wählen,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verläßt das System die aktuelle Transaktion, und die erfaßten Daten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gehen ohne Warnung verloren.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>ZRLMOB003</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00076</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZRLMOB003</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DESCRIPTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can use this program to count stock in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3528ED50E8AA5570E10000009B38F983&gt;storage bins&lt;/&gt; in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>warehouse. It supports hand-held devices. You count stock by entering</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526C13FAFAB52B9E10000009B38F974&gt;storage unit&lt;/&gt; (SU) numbers.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>In a second detail screen, you can change specific quantities if</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>necessary.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can enter the SU numbers by scanning a barcode.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This report is part of the radio frequency (RF) ability project in R/3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and can be accessed via menu transaction &lt;LS&gt;LM01&lt;/&gt; (&lt;LS&gt;Inventory -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Count SU&lt;/&gt; or &lt;LS&gt;Count SU guided&lt;/&gt;).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Count SU System-Guided</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The &lt;ZH&gt;Count SU Guided&lt;/&gt; transaction searches for active inventory</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>documents that have not yet been (completely) counted that have been</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned to the name of the current user. It then leads the user to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>first bin location for which the entry of count results are required.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>The bin location must be verified by scanning a barcode or by entering</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>a valid verification value for the corresponding bin. Afterwards, you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can enter SU numbers into the system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system only proposes the next bin if the stock in a bin has been</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fully counted.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Count SU</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The &lt;ZH&gt;Count SU&lt;/&gt; transaction allows users to specify a specific bin</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>location (that needs to be counted) which is not in the sequence listed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in the inventory document. Nonetheless, the system still requires the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>counting of active inventory documents as well. After checking the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>warehouse number, storage type and bin location, you can enter SU</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numbers into the system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A set/get-parameter ID is active for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526C148AFAB52B9E10000009B38F974&gt;warehouse number&lt;/&gt; and the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:GLOS.3526C14FAFAB52B9E10000009B38F974&gt;storage type&lt;/&gt; so that after</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>you have made the first entry, you only need to enter the bin location</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>when you choose a bin. Since you can use the barcoded bin location,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this simplifies the entry of this data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Using the Transactions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Once you enter the SU numbers, you may save the data or view the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>details for each line by selecting a specific SU number. You can enter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>or change detail data. If you find an unlisted material in the bin, you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can add it in the detail screen. After entry, the system checks the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data for consistency. You can only save the data if the consistency</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>check is successful.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;LS&gt;BIN EMPTY&lt;/&gt; displays all SU numbers remaining on the books which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>have a count quantity of zero. After you enter all SUs that you have</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>found in the bin, choose &lt;LS&gt;BIN EMPTY&lt;/&gt; to see if there should be any</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>additional SUs. If none appear, SAVE the results; otherwise check the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SUs. If they are really missing, SAVE the data to inform the system</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>about these differences. If a SU was overlooked, you need to enter the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>quantity in the detail screen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This function only works in storage types managed for storage units. If</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>you are not working with SU-managed stock, see the documentation in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>program &lt;DS:RE.RLMOB004&gt;RLMOB004&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For this function, you create and activate inventory documents in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system in the usual manner.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For the system-guided option, you need to assign users to the inventory</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>documents before you activate them.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system-guided variant requires the entry of a verification field</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the bin location. You maintain the verification field in the bin</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>master record. This is supported by the report</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:RE.RLVERIFY&gt;RLVERIFY&lt;/&gt; that allows you to fill the field. For</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this, there are three options. You can use</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>The storage bin coordinates</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Part of the storage bin coordinates</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>A customer exit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Since quantities do not have to be entered explicitly, you will need to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>have the use of this method cleared by your external auditor. The less</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>you access the storage type and the more you work with full pallets,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the more accurate is the outcome.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In case of errors, a message appears. You can change missing or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>incorrect data. If there are no errors, the system updates the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>inventory counting results in the database and displays a corresponding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>message.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Caution</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The SAP standard confirmation dialog box which normally appears has</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>been deactivated for this function. Therefore, you should choose</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;BACK&lt;/&gt; with caution. Choosing &lt;LS&gt;BACK&lt;/&gt; causes the system to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>leave the current transaction and the entered data will be lost without</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>warning.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>ZRLMOB003</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00080</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZRLMOB003</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DESCRIPTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce programme vous permet de compter les stocks constitués dans les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>emplacements d&apos;un magasin. Le programme prévoit l&apos;utilisation de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>lecteurs de collecte mobile des données. Vous pouvez compter les stocks</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>en entrant les numéros des unités de stock (numéros US). Dans un second</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>écran de détail, vous pouvez modifier certaines quantités, si besoin</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>est.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vous pouvez saisir les numéros US en scannant un code à barres.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ce programme est lié à la radiotechnologie (radiofréquence RF) en R/3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>et peut être appelé via la transaction &lt;LS&gt;LM01&lt;/&gt; (&lt;LS&gt;Inventaire -&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Comptage US&lt;/&gt; ou &lt;LS&gt;Comptage US exécuté par le système&lt;/&gt;).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Comptage des unités de stock exécuté par le système</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La transaction &lt;ZH&gt;Comptage US exécuté par le système&lt;/&gt; recherche des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>documents d&apos;inventaire actifs qui n&apos;ont pas encore été (entièrement)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>comptés et sont affectés au nom de l&apos;utilisateur actuel. L&apos;utilisateur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>est guidé vers le premier emplacement concerné par la saisie de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>résultats de comptage. Cet emplacement doit être vérifié en scannant un</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>code à barres ou en entrant une valeur de vérification correspondante.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Les numéros des unités de stock sont saisis ensuite dans le système.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le système prédéfinit ensuite l&apos;emplacement suivant si les stocks du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>premier emplacement ont été entièrement comptés.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Comptage US</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La transaction &lt;ZH&gt;Comptage US&lt;/&gt; vous permet d&apos;indiquer un emplacement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>déterminé (à compter), mais ne figurant pas dans le document</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;inventaire. Vous devez cependant également compter les documents</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;inventaire actifs. Si vous avez vérifié le numéro de magasin, le type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de magasin et l&apos;emplacement, vous pouvez saisir les numéros US dans le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>système.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Une ID de paramètre SET/GET est active pour le numéro et le type de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>magasin ; après avoir saisi le premier emplacement, vous n&apos;êtes donc</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>pas obligé d&apos;en entrer un autre à moins que vous ne vouliez en</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sélectionner un nouveau. La saisie des données est simplifiée par le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fait que vous pouvez utiliser l&apos;emplacement doté d&apos;un code à barres.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Utilisation des transactions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Si vous avez entré les numéros US, vous pouvez sauvegarder les données</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ou afficher les détails par ligne en sélectionnant un numéro US donné.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Vous pouvez entrer ou modifier des données détaillées. Si vous trouvez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>un article non référencé dans l&apos;emplacement, vous pouvez le saisir dans</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;écran de détail. Les données entrées sont vérifiées dans le système.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Vous ne pouvez sauvegarder ces données que si le contrôle de tolérance</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ne décèle aucune erreur.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La zone &lt;LS&gt;Emplacement vide&lt;/&gt; comprend tous les numéros US gérés,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dotés d&apos;une quantité égale à 0. Si vous avez entré toutes les unités de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>stock de l&apos;emplacement, sélectionnez &lt;LS&gt;Emplacement vide&lt;/&gt; pour</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vérifier s&apos;il devrait exister d&apos;autres unités de stock. Si aucune</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>donnée ne s&apos;affiche, sauvegardez les résultats ; s&apos;il existe des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données, vérifiez les unités de stock. Si elles ne sont vraiment pas</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gérées, sauvegardez les données pour informer le système de ces écarts.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Si vous avez omis une unité de stock, vous devez indiquer la quantité</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>correspondante à l&apos;écran de détail.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette  fonction ne s&apos;applique qu&apos;aux numéros de magasins gérés par</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unités de stock. Si vous n&apos;utilisez pas de stocks gérés par unités de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>stock, consultez la documentation du programme</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:RE.RLMOB004&gt;RLMOB004&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette fonction vous permet de créer et d&apos;activer des documents</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;inventaire dans le système.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Si vous utilisez l&apos;alternative gérée dans le système, vous devez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affecter des utilisateurs aux documents d&apos;inventaire avant de les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activer.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Avec la variante système, vous devez gérer une entrée dans la zone de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vérification de l&apos;emplacement. Cette zone est gérée dans</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;enregistrement des emplacements. Le programme</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:RE.RLVERIFY&gt;RLVERIFY&lt;/&gt; vous permet de renseigner cette zone. Il</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>existe trois options :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Coordonnées d&apos;emplacement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Partie des coordonnées des emplacements</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Exit utilisateur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Les quantités ne devant pas être saisies explicitement, vous devez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>convenir de l&apos;utilisation de cette procédure avec votre commissaire aux</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>compte. Moins vous accédez au type de magasin et plus vous utilisez de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>palettes entières, plus le résultat est précis.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En cas d&apos;erreur, le système édite un message. Vous pouvez gérer des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données manquantes ou erronées. Si tout est correct, le système met à</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>jour les résultats du comptage dans la base de données et affiche un</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>message correspondant.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Attention</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La boîte de dialogue du système standard, qui apparaît généralement, a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>été désactivée par cette fonction. Réfléchissez avant d&apos;utiliser la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fonction &lt;LS&gt;Retour&lt;/&gt;. Si vous appuyez sur &lt;LS&gt;retour&lt;/&gt;, le système</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>quitte la transaction actuelle et vous perdrez sans avertissement les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>données saisies.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>ZRLMOB003</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00081</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZRLMOB003</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DESCRIPTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Através deste programa, o usuário pode contar os estoques nas posições</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>no depósito. O programa apoia dispositivos de entrada portátil de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dados. O usuário pode contar os estoques entrando números de unidade de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>depósito (números UD). Em uma segunda tela de detalhes pode modificar</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determinadas quantidades, se for necessário.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Os números UD podem ser entrados através da digitalização de um código</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de barras.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Este report faz parte do apoio da tecnologia das radiofrequências (RF)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>em R/3 e pode ser chamado através da transação do menu &lt;LS&gt;LM01&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(&lt;LS&gt;Inventário -&gt; Contagem UD&lt;/&gt; ou &lt;LS&gt;Contagem UD executada pelo</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sistema&lt;/&gt;).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Contagem UD executada pelo sistema</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A transação &lt;ZH&gt;Contagem UD executada pelo sistema&lt;/&gt; procura</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>documentos de inventário ativos que ainda não foram contados</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(completamente) e que estão atribuídos ao nome do usuário atual. O</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>usuário é dirigido à primeira posição no depósito para a qual se devem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entrar resultados de contagem. A posição tem de ser verificada através</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>da digitalização de um código de barras ou da entrada de um valor de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verificação válido correspondente. A seguir, o usuário pode entrar</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>números UD no sistema.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>O sistema somente propõe a posição seguinte depois da contagem completa</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dos estoques em uma posição.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Contagem UD</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Através da transação &lt;ZH&gt;Contagem UD&lt;/&gt;, o usuário pode indicar uma</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determinada posição no depósito (a ser contada) que não está listada no</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>documento de inventário. Mas mesmo assim, o sistema também exige a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contagem de documentos de inventário ativos. Depois de ter verificado o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sistema de depósito, o tipo de depósito e a posição no depósito, o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>usuário pode entrar os números UD no sistema.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Está ativa uma ID de parâmetro SET/GET para o sistema de depósito e o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tipo de depósito de maneira que o usuário só tem de indicar a posição</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>no depósito após a primeira entrada, se selecionar uma posição. Visto</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>que pode utilizar a posição codificada, a entrada destes dados é</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>simplificada.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Utilização das transações</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Depois de ter entrado os números UD, o usuário pode gravar os dados ou</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>exibir os detalhes por linha selecionando um determinado número UD.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Pode entrar ou modificar dados detalhados. No caso de encontrar um</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>material não listado na posição, pode entrá-lo na tela detalhada. O</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sistema verifica se os dados entrados são consistentes. O usuário pode</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gravar os dados somente se a verificação de consistência tiver êxito.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;LS&gt;POS.VAZIA&lt;/&gt; exibe todos os números UD administrados em termos de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>registro para os quais foi determinada uma quantidade contada igual a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zero. Depois de ter entrado todas as unidades de depósito encontradas</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>na posição, selecionar &lt;LS&gt;POS.VAZIA&lt;/&gt; para verificar se ainda</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>deveriam existir outras unidades de depósito. Se nenhuma unidade de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>depósito for exibida, GRAVAR os resultados. Caso contrário, o usário</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tem de verificar as unidades de depósito. Se faltarem realmente, GRAVAR</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>os dados para comunicar estas diferenças ao sistema. Caso o usuário</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tenha omitido uma unidade de depósito tem de entrar a quantidade na</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tela detalhada.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Esta função só pode ser utilizada em tipos de depósito com</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>administração de unidades de depósito. No caso de não se trabalhar com</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>estoques administrados em unidades de depósito, ler a documentação para</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>o programa &lt;DS:RE.RLMOB004&gt;RLMOB004&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>No caso desta função, os documentos de inventário são criados e</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ativados da forma habitual.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>No caso da alternativa executada pelo sistema, o usuário tem de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>atribuir usuários aos documentos de inventário antes de os ativar.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A variante executada pelo sistema requer uma entrada no campo de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verificação para a posição no depósito. O campo de verificação é</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>atualizado no registro das posições no depósito. Esta operação é</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>apoiada através do report &lt;DS:RE.RLVERIFY&gt;RLVERIFY&lt;/&gt; que permite o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>preenchimento do campo. Neste contexto, há três opções disponíveis:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>coordenadas da posição no depósito</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>uma parte das coordenadas da posição no depósito</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>customer exit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Visto que as quantidades não têm de ser entradas explicitamente, o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>usuário deve acordar a aplicação deste método com o seu auditor. Quanto</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>menos acessos executa a este tipo de depósito e quanto mais trabalha</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>com paletes completos, tanto mais exato será o resultado.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Em caso de erro, o sistema exibe uma mensagem. O usuário pode atualizar</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dados incorretos ou dados em falta. Se não ocorerr nenhum erro, o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sistema atualiza os resultados da contagem de inventário no banco de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dados e exibe uma mensagem correspondente.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Atenção</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A caixa de diálogo do sistema standard da SAP, que normalmente aparece,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>foi desativada para esta função. Pos isso, convém ter cuidado no que</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>diz respeito à função &lt;LS&gt;VOLTAR&lt;/&gt;. Quando o usuário seleciona</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;VOLTAR&lt;/&gt;, o sistema sai da transação atual e os dados entrados</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>serão perdidos sem aviso.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>ZRLMOB003</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00075</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZRLMOB003</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DESCRIPTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Este programa le permite contrar los stocks en la ubicación del</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>almacén. El programa prevé la utilización de dispositivos portátiles de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entrada de datos. Puede contar los stocks, introduciendo los números de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unidades de almacén (números UA). En la segunda imagen de selección</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>puede modificar determinadas cantidades, si es necesario.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Puede registrar los números UA escaneando un código de barras.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>El report está ligado a la técnica de radiodifusión (Radio Frequency,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>RF) en R/3 y se puede llamar mediante la transacción &lt;ZH&gt;LM01&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(&lt;LS&gt;Inventario -&gt; Recuento UA o &lt;LS&gt;Recuento UA efectuado&lt;/&gt;).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Recuento UA gestionado por el sistema</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La transacción &lt;ZH&gt;Recuento de UA efectuado&lt;/&gt; busca documentos de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>inventario activos, que todavía no se han contado (por completo) y que</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>están asignados al nombre del usuario actual. El usuario se guía a la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>primera ubicación, para la que se deben registrar los resultados del</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>recuento. La ubicación se debe verificar escaneando un código de barras</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>o registrando un valor de verificación válido correspondiente.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Finalmente, puede registrar los números UA en el sistema.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>El sistema no propone la siguiente ubicación hasta que los stocks no se</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hayan calculado por completo.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Recuento UA</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Con la transacción &lt;ZH&gt;Recuento UA&lt;/&gt;, el usuario puede indicar una</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ubicación determinada (a contar), que no aparece en la lista de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>documentos de inventario. Sin embargo, el sistema también exige el</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>recuento de los documentos de inventario activos. Una vez haya</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verificado el número de almacén, la clase de almacén y la ubicación,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>podrá registrar los números UA en el sistema.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Un ID del parámetro SET/GET está activo para el número de almacén y la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>clase de almacén; de modo que después de la primera entrada, el usuario</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>no está obligado a registrar otra ubicación a menos que desee</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>seleccionar una nueva. Puesto que puede utilizar una ubicación con</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>código de barras, se simplifica el registro de estos datos.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Utilización de las transacciones</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Una vez introducidos los números UA, los puede grabar o puede</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>visualizar los detalles de cada línea, seleccionando un número UA</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determinado. Podrá introducir o modificar los datos detallados. Si</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>encuentra un material no listado en la ubicación, lo podrá registrar en</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>la imagen detallada. El sistema verifica la consistencia de los datos</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>introducidos. Sólo podrá grabar los datos si no aparece ningún error</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>después de la verificación.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>El campo &lt;LS&gt;Ubicación vacía&lt;/&gt; visualiza todos los números UA</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>efectuados a efectos contables, dotados de una cantidad igual a 0. Si</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ha introducido todos los números UA encontrados en la ubicación,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>seleccione &lt;LS&gt;Ubicación vacía&lt;/&gt; para verificar si todavía existen más</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>UAs. Si no aparece ningún dato, GRABE los resultados. En caso</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contrario, verifique las UAs. Si faltan, GRABE los datos para informar</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>al sistema sobre estas diferencias. Si ha olvidado una unidad de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>almacén, introduzca la cantidad en la imagen detallada.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Esta función sólo se puede utilizar con clases de almacén gestionadas</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>por las unidades de almacén. Si no trabaja con stocks gestionados por</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unidad de almacén, consulte la documentación del programa</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:RE.RLMOB004&gt;RLMOB004&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Esta función le permite crear y activar documentos de inventario en el</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sistema.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Si utiliza la alternativa gestionada por el sistema, deberá asignar los</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>documentos de inventario al usuario antes de activarlos.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La variante gestionada por el sistema exige la entrada en el campo de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verificación para la ubicación. El campo de verificación se actualiza</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>en la ubicación. El report &lt;DS:RE.RLVERIFY&gt;RLVERIFY&lt;/&gt; permite</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>completar este campo. Existen tres opciones:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>coordenadas de ubicación</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>parte de las coordenadas de ubicación</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>exit de usuario</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Puesto que las cantidades no se deben registrar de forma explícita,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>deberá reconciliar la aplicación de este procedimiento con su auditor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Cuanto menos acceda al tipo de almacén y más trabaje con palets</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enteros, más exacto será el resultado.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En caso de error se edita un mensaje. Podrá actualizar datos faltantes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>o incorrectos. Si no aparecen errores, el sistema actualiza los</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>resultados del recuento en la base de datos y visualiza un mensaje</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>correspondiente.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Atención</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La ventana de diálogo en el sistema estándar SAP se ha desactivado con</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>esta función. Por este motivo, reflexione antes de seleccionar</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Back&lt;/&gt;. Si selecciona &lt;LS&gt;Back&lt;/&gt;, el sistema abandona la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transacción actual y los datos registrados se pierden sin previo aviso.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

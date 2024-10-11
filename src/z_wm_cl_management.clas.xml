@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>Z_WM_CL_MANAGEMENT</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Management de WM</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_QTD_PAL_MATERIAL</CMPNAME>
+     <SCONAME>E_MENGE_PICK</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Quantidade</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_QTD_PAL_MATERIAL</CMPNAME>
+     <SCONAME>I_SPLIT_PICK</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código geral</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

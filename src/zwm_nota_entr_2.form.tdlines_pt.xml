@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>ASSINA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>FF</TDFORMAT>
+     <TDLINE>,,,,Motorista</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>DATAHORA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>DH</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;Data:&lt;/&gt;,,&amp;DATE&amp;,,&lt;B&gt;Hora:&lt;/&gt;,,&amp;TIME(5)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;Porta:&lt;/&gt;,,&amp;zwm_sscc_aux-desc_porta&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;Talão:&lt;/&gt; &amp;talao&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>FOOTER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;8.5&apos; CM WIDTH 0 TW FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;13.5&apos; CM WIDTH 0 TW FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>INACTIVO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>Demonstra outra forma para definir as janelas</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;9&apos; CM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX HEIGHT &apos;2&apos; CM WIDTH &apos;0&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;14&apos; CM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX HEIGHT &apos;2&apos; CM WIDTH &apos;0&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>GRELHA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX YPOS &apos;0.9&apos; CM HEIGHT 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;2.0&apos; CM WIDTH 0 CM HEIGHT &apos;0.9&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;6.5&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;3.5&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;12&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;10.5&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;6.5&apos; CM YPOS &apos;0.7&apos; CM HEIGHT &apos;0&apos; CM WIDTH &apos;5.5&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;3.5&apos; CM YPOS &apos;0.7&apos; CM HEIGHT &apos;0&apos; CM WIDTH &apos;7&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>HF</TDFORMAT>
+     <TDLINE>,,,,Nota de Entrega</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>ML</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>HF</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>HF</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>Talão: &amp;talao&amp;,,,,&lt;H1&gt;&amp;VBSK-SAMMG&amp;&lt;/&gt;,,&lt;CB&gt;&amp;ZWM_SSCC_AUX-DESC_PORTA&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>HF</TDFORMAT>
+     <TDLINE>              ,,,,&lt;H1&gt;&amp;VBSK-SAMMG&amp;&lt;/&gt;,,&lt;CB&gt;&amp;ZWM_SSCC_AUX-DESC_PORTA&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&amp;ZWM_SSCC_AUX-DESC_PORTA&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>HEADER1</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>HD</TDFORMAT>
+     <TDLINE>&amp;ZWM_SSCC_AUX-DESC_PORTA&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>LOGO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BITMAP &apos;LOGO_RENOVA&apos; OBJECT GRAPHICS ID BMAP TYPE BMON DPI 600</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>H1</TDFORMAT>
+     <TDLINE>,,Entrega,,Destino,,,,m3,,Kg,,Quantidade</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>H2</TDFORMAT>
+     <TDLINE>,,Material,,Un Encomenda,,Un Venda</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;PAGE&amp; = &apos;1&apos;.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>H1</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;2&apos; CM WIDTH 0 CM HEIGHT &apos;0.6&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;2&apos; CM YPOS &apos;1.4&apos; CM WIDTH 14 CM HEIGHT 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;2&apos; CM YPOS &apos;1.8&apos; CM WIDTH 14 CM HEIGHT 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;2&apos; CM YPOS &apos;2.2&apos; CM WIDTH 14 CM HEIGHT 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;2&apos; CM YPOS &apos;2.7&apos; CM WIDTH 14 CM HEIGHT 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;2&apos; CM YPOS &apos;3.1&apos; CM WIDTH 14 CM HEIGHT 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;2&apos; CM YPOS &apos;3.5&apos; CM WIDTH 14 CM HEIGHT 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;2&apos; CM YPOS &apos;4&apos; CM WIDTH 14 CM HEIGHT 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;2&apos; CM YPOS &apos;4.5&apos; CM WIDTH 14 CM HEIGHT 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;2&apos; CM YPOS &apos;1.4&apos; CM WIDTH 0 CM HEIGHT &apos;2.6&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;9&apos; CM YPOS &apos;1.4&apos; CM WIDTH 0 CM HEIGHT &apos;2.6&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;12.5&apos; CM YPOS &apos;1.4&apos; CM WIDTH 0 CM HEIGHT &apos;1.7&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;16&apos; CM YPOS &apos;1.4&apos; CM WIDTH 0 CM HEIGHT &apos;2.6&apos; CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>&lt;B&gt;,,,,Verificações do Veículo,,Sim,,Não&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TB</TDFORMAT>
+     <TDLINE>&lt;B&gt;,,VERIFICAÇÃO DO VEICULO&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TB</TDFORMAT>
+     <TDLINE>,,Odor,, &lt;B&gt; Sim,,Não&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TB</TDFORMAT>
+     <TDLINE>,,Sujidade,, &lt;B&gt; Sim,,Não&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TB</TDFORMAT>
+     <TDLINE>,,Zonas húmidas,, &lt;B&gt; Sim,,Não&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>,,Objectos estranhos à mercadoria</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TB</TDFORMAT>
+     <TDLINE>,,Outros</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TB</TDFORMAT>
+     <TDLINE>,,Observações</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;2&apos; CM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>BITMAP &apos;ZWM_TABELA_NOTA_ENTREGA&apos; OBJECT GRAPHICS ID BMAP TYPE BMON</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>REMESSA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;L_FIRST&amp; = &apos;X&apos;.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>RE</TDFORMAT>
+     <TDLINE>------------------------------------------------------------------------</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>--------------------------------</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ELSE.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>RE</TDFORMAT>
+     <TDLINE>------------------------------------------------------------------------</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>------------------------------------------------------------------------</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>---------------------------------------------------------</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>RE</TDFORMAT>
+     <TDLINE>,,&amp;ZWM_FOLHA_CARGAS-REMESSA&amp;,,,,&amp;NOME_WE&amp;,,,,&amp;*zwm_sscc_aux-btvol(10)&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;*zwm_sscc_aux-brgew(10)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>RE</TDFORMAT>
+     <TDLINE>,,,,&amp;&apos;(&apos;ZWM_FOLHA_CARGAS-ORDEM(Z)&apos;ª Entrega)&apos;&amp;,,&amp;MORADA_WE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>RE</TDFORMAT>
+     <TDLINE>,,,,,,&amp;COD_WE&amp; &amp;CIDADE_WE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>INCLUDE &amp;VBDKL-TDNAME&amp; OBJECT VBBK ID 0002 PARAGRAPH HT LANGUAGE &amp;VBDKL-SPRAS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>SSCC</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;ZWM_FOLHA_CARGAS-FLAG_MATERIAL&amp; = &apos;X&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>,,,,&lt;SU&gt;Un./UV,,Total Un.&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>SS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>PALETES</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>RE</TDFORMAT>
+     <TDLINE>------------------------------------------------------------------------</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>---------------------------------------------------------------------------------------------------------------------------------</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>PL</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;Sub Total Paletes:&lt;/&gt;,,&amp;l_pal(10)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>MERCH_TITLE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>M1</TDFORMAT>
+     <TDLINE>&lt;UB&gt;,,MERCHANDISING&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>MATERIAL</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>MM</TDFORMAT>
+     <TDLINE>,,&amp;MAKT-MAKTX&amp;,,&amp;TAB_OUT-LFIMG&amp;,,&amp;TAB_OUT-VRKME&amp;,,&amp;L_QTD_HE(I)&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;L_UN_HE(I)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>MM</TDFORMAT>
+     <TDLINE>&lt;UB&gt;,,&amp;TAB_OUT-TXT_PAL&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>MATERIAL_MER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>M1</TDFORMAT>
+     <TDLINE>,,&amp;MAKT-MAKTX&amp;,,&amp;TAB_OUT-LFIMG&amp;,,&amp;TAB_OUT-VRKME&amp;,,&amp;L_QTD_HE(I)&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;L_UN_HE(I)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>M1</TDFORMAT>
+     <TDLINE>&lt;UB&gt;,,&amp;TAB_OUT-TXT_PAL&amp;&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>TOTAL_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>TOTAL_LINE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>OBSERVA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>FF</TDFORMAT>
+     <TDLINE>,,Observações</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>PAGINA</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>PG</TDFORMAT>
+     <TDLINE>Pág:,,&amp;PAGE&amp;/ &amp;SAPSCRIPT-FORMPAGES&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>SUPERVIS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>FF</TDFORMAT>
+     <TDLINE>,,,,Supervisor e Carimbo</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>TOTAIS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION WINDOW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;3.9&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;6.0&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;8.0&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;11&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;13.5&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;16&apos; CM WIDTH 0 CM FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TT</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;TOTAIS&lt;/&gt;,,&lt;B&gt;Paletes&lt;/&gt;,,&amp;l_tot_pal(10)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;Volume (m3)&lt;/&gt;,,&amp;zwm_sscc_aux-btvol(10)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;Peso (Kg)&lt;/&gt;,,&amp;zwm_sscc_aux-brgew(10)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>TOTAL</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;Total&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>TRANSPOR</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME 10 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TR</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;Transporte&lt;/&gt;,,&amp;VTTK-TKNUM&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TR</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;Transportador&lt;/&gt;,,&amp;VTTK-TDLNR&amp; - &amp;LFA1-NAME1&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>TR</TDFORMAT>
+     <TDLINE>,,&lt;B&gt;Matricula do Camião&lt;/&gt;,,&amp;VTTK-SIGNI&amp;</TDLINE>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

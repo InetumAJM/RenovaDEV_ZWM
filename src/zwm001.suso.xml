@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZWM001</OBJCT>
+    <FIEL1>LGNUM</FIEL1>
+    <OCLSS>ZWM</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>P</LANGU>
+    <OBJECT>ZWM001</OBJECT>
+    <TTEXT>Change Delivery With Created TO</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZWM001</OBJCT>
+   </TOBJVORFLG>
+  </asx:values>
+ </asx:abap>
+</abapGit>

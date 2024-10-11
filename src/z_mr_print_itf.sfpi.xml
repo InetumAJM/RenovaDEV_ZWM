@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>P</LANGUAGE>
+     <ID/>
+     <TEXT>Interface para formulário Z_MR_PRINT_PDF</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS/>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>S_VTTK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>VTTK</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>S_ADRC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ADRC</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>S_TTDS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TTDS</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_DEPPLACE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>S_TVFTZT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TVFTZT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_KMS_DEST</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_NUMTRANS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_NOME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_MORADA</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_CPLOCAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_NUMCONT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_TEXTKMSDEST</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_VALORLIQ</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>S_MAIN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MAIN_T</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_SUBTOTAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>KZWI1</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_IVA</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>KZWI2</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_TOTAL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>NETWR</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>S_EKBE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_EKBE_T</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>S_VFKP</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>VFKP</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_TXTVALOR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_DESCONTO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>KZWI3</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_DESCONTO_TXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_TOTAL_TXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_SUBTOTAL_TXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_PROC_COMP</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>V_IVA_TXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>STRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES>
+      <FPCLINE>types: begin of ty_main.</FPCLINE>
+      <FPCLINE>  INCLUDE STRUCTURE vfsi.</FPCLINE>
+      <FPCLINE>  types:</FPCLINE>
+      <FPCLINE>  name1 type name1_gp,</FPCLINE>
+      <FPCLINE>  pstlz type pstlz,</FPCLINE>
+      <FPCLINE>  ort01 type ort01,</FPCLINE>
+      <FPCLINE>  local_descarga(72) type c,</FPCLINE>
+      <FPCLINE>  text_valor(10) type c,</FPCLINE>
+      <FPCLINE>END OF ty_main.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>types: ty_main_t type TABLE OF ty_main.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>types: ty_ekbe_t type table of ekbe.</FPCLINE>
+     </TYPES>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>I_RBKP</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RBKP</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>I_RSEG</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RSEG</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>I_LFA1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LFA1</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>I_ZBTXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TTEXT</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>I_BKPF</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>BKPF</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IT_RSEG</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_RSEG</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS>
+      <FPPARAMETER>I_RSEG</FPPARAMETER>
+      <FPPARAMETER>I_LFA1</FPPARAMETER>
+      <FPPARAMETER>I_ZBTXT</FPPARAMETER>
+      <FPPARAMETER>I_BKPF</FPPARAMETER>
+      <FPPARAMETER>I_RBKP</FPPARAMETER>
+      <FPPARAMETER>/1BCDWB/DOCPARAMS</FPPARAMETER>
+      <FPPARAMETER>IT_RSEG</FPPARAMETER>
+     </INPUT_PARAMETERS>
+     <OUTPUT_PARAMETERS>
+      <FPPARAMETER>S_VTTK</FPPARAMETER>
+      <FPPARAMETER>V_DEPPLACE</FPPARAMETER>
+      <FPPARAMETER>V_KMS_DEST</FPPARAMETER>
+      <FPPARAMETER>V_NUMTRANS</FPPARAMETER>
+      <FPPARAMETER>S_ADRC</FPPARAMETER>
+      <FPPARAMETER>V_NOME</FPPARAMETER>
+      <FPPARAMETER>V_MORADA</FPPARAMETER>
+      <FPPARAMETER>V_CPLOCAL</FPPARAMETER>
+      <FPPARAMETER>V_NUMCONT</FPPARAMETER>
+      <FPPARAMETER>V_TEXTKMSDEST</FPPARAMETER>
+      <FPPARAMETER>S_MAIN</FPPARAMETER>
+      <FPPARAMETER>V_SUBTOTAL</FPPARAMETER>
+      <FPPARAMETER>V_TOTAL</FPPARAMETER>
+      <FPPARAMETER>V_IVA</FPPARAMETER>
+      <FPPARAMETER>S_EKBE</FPPARAMETER>
+      <FPPARAMETER>S_TTDS</FPPARAMETER>
+      <FPPARAMETER>S_VFKP</FPPARAMETER>
+      <FPPARAMETER>S_TVFTZT</FPPARAMETER>
+      <FPPARAMETER>V_TXTVALOR</FPPARAMETER>
+      <FPPARAMETER>V_DESCONTO</FPPARAMETER>
+      <FPPARAMETER>V_DESCONTO_TXT</FPPARAMETER>
+      <FPPARAMETER>V_TOTAL_TXT</FPPARAMETER>
+      <FPPARAMETER>V_SUBTOTAL_TXT</FPPARAMETER>
+      <FPPARAMETER>V_PROC_COMP</FPPARAMETER>
+      <FPPARAMETER>V_IVA_TXT</FPPARAMETER>
+     </OUTPUT_PARAMETERS>
+     <INITIALIZATION>
+      <FPCLINE>tables: ekpo, t001, ekko.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA: WA_RSEG type rseg,</FPCLINE>
+      <FPCLINE>      wa_main type ty_main,</FPCLINE>
+      <FPCLINE>      wa_vbpa type vbpa,</FPCLINE>
+      <FPCLINE>      wa_vfkk type vfkk,</FPCLINE>
+      <FPCLINE>      wa_adrc type adrc,</FPCLINE>
+      <FPCLINE>      wa_vfkp type vfkp,</FPCLINE>
+      <FPCLINE>      wa_kna1 type kna1,</FPCLINE>
+      <FPCLINE>      wa_ekbe type ekbe,</FPCLINE>
+      <FPCLINE>      wa_vfsi type vfsi,</FPCLINE>
+      <FPCLINE>      lvsum_dmbtr type dmbtr,</FPCLINE>
+      <FPCLINE>      lv_temp type string,</FPCLINE>
+      <FPCLINE>      lv_kms1 type string,</FPCLINE>
+      <FPCLINE>      lv_kms2 type string.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>&quot;DADOS DA JANELA &apos;ADDRESS&apos;</FPCLINE>
+      <FPCLINE>Select single * from VFKP</FPCLINE>
+      <FPCLINE>  into wa_vfkp</FPCLINE>
+      <FPCLINE>  where BUKRS = I_RSEG-BUKRS</FPCLINE>
+      <FPCLINE>*    and EXTI1 = I_RSEG-XBLNR</FPCLINE>
+      <FPCLINE>    and EBELN = I_RSEG-EBELN</FPCLINE>
+      <FPCLINE>    and LBLNI = I_RSEG-LFBNR.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>&quot;NUMERO DE TRANSPORTE</FPCLINE>
+      <FPCLINE>  CONCATENATE wa_VFKP-REBEL &apos;/&apos; wa_VFKP-FKNUM</FPCLINE>
+      <FPCLINE>    into V_NUMTRANS</FPCLINE>
+      <FPCLINE>    SEPARATED BY &apos; &apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>Select single * from VTTK</FPCLINE>
+      <FPCLINE>    into S_VTTK</FPCLINE>
+      <FPCLINE>    where TKNUM = wa_VFKP-REBEL.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>Select single * from TTDS</FPCLINE>
+      <FPCLINE>  INTO S_TTDS</FPCLINE>
+      <FPCLINE>  where TPLST = S_VTTK-TPLST.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>Select single * from ADRC</FPCLINE>
+      <FPCLINE>  into s_adrc</FPCLINE>
+      <FPCLINE>  where ADDRNUMBER = S_TTDS-ADRNR.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>&quot;Local de Partida</FPCLINE>
+      <FPCLINE>CONCATENATE S_adrc-NAME1  S_ADRC-POST_CODE1</FPCLINE>
+      <FPCLINE>  into v_depplace</FPCLINE>
+      <FPCLINE>  SEPARATED BY CL_ABAP_CHAR_UTILITIES=&gt;NEWLINE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CONCATENATE v_depplace S_ADRC-CITY1</FPCLINE>
+      <FPCLINE>  into v_depplace</FPCLINE>
+      <FPCLINE>  SEPARATED BY &apos; &apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CLEAR: v_kms_dest,</FPCLINE>
+      <FPCLINE>       v_nome,</FPCLINE>
+      <FPCLINE>       v_morada,</FPCLINE>
+      <FPCLINE>       v_cplocal,</FPCLINE>
+      <FPCLINE>       V_TEXTKMSDEST,</FPCLINE>
+      <FPCLINE>       v_txtvalor.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>&quot;Total KMs ou Zona de Destino</FPCLINE>
+      <FPCLINE>if S_VTTK-SDABW eq &apos;0001&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  V_TEXTKMSDEST = &apos;Total KMs:&apos;.</FPCLINE>
+      <FPCLINE>  lv_kms1 = S_VTTK-DISTZ.</FPCLINE>
+      <FPCLINE>  split lv_kms1 at &apos;.&apos; into v_kms_dest lv_kms2.</FPCLINE>
+      <FPCLINE>  CONCATENATE v_kms_dest S_VTTK-MEDST</FPCLINE>
+      <FPCLINE>  into v_kms_dest</FPCLINE>
+      <FPCLINE>  SEPARATED BY &apos; &apos;.</FPCLINE>
+      <FPCLINE>elseif S_VTTK-SDABW eq &apos;0005&apos;.</FPCLINE>
+      <FPCLINE>  v_txtvalor = &apos;Valor&apos;.</FPCLINE>
+      <FPCLINE>  v_kms_dest = &apos;&apos;.</FPCLINE>
+      <FPCLINE>else.</FPCLINE>
+      <FPCLINE>  Select single * from TVFTZT</FPCLINE>
+      <FPCLINE>    into s_tvftzt</FPCLINE>
+      <FPCLINE>    where TRFZN = wa_VFKP-TRFZNZ.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  V_TEXTKMSDEST = &apos;Zona de Destino:&apos;.</FPCLINE>
+      <FPCLINE>  CONCATENATE wa_VFKP-TRFZNZ S_TVFTZT-BEZEI</FPCLINE>
+      <FPCLINE>    into v_kms_dest</FPCLINE>
+      <FPCLINE>    SEPARATED BY CL_ABAP_CHAR_UTILITIES=&gt;NEWLINE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>endif.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>&quot;Nome</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CONCATENATE I_LFA1-NAME1 I_LFA1-NAME2 I_LFA1-NAME3 I_LFA1-NAME4</FPCLINE>
+      <FPCLINE>  into v_nome SEPARATED BY SPACE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>V_MORADA = I_LFA1-STRAS.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CONCATENATE I_LFA1-PSTLZ I_LFA1-ORT01 INTO V_CPLOCAL SEPARATED BY SPACE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>&quot;JANELA &apos;INFO&apos;</FPCLINE>
+      <FPCLINE>V_NUMCONT = I_LFA1-STCEG.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*sort it_ekpo by ebeln ebelp.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>LOOP AT IT_RSEG into wa_rseg.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>select * from VFKP</FPCLINE>
+      <FPCLINE>  into wa_vfkp</FPCLINE>
+      <FPCLINE>  where BUKRS = wa_RSEG-BUKRS</FPCLINE>
+      <FPCLINE>*  and EXTI1 = wa_RSEG-XBLNR</FPCLINE>
+      <FPCLINE>  and EBELN = wa_RSEG-EBELN</FPCLINE>
+      <FPCLINE>  and LBLNI = wa_RSEG-LFBNR.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>select * from vfsi</FPCLINE>
+      <FPCLINE>    into CORRESPONDING FIELDS OF wa_main</FPCLINE>
+      <FPCLINE>    where KNUMV = wa_VFKP-KNUMV and VBTYP = &apos;J&apos;.</FPCLINE>
+      <FPCLINE>*    where knumv = wa_vfkp-knumv.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  select single ADRNR KUNNR from VBPA</FPCLINE>
+      <FPCLINE>    into CORRESPONDING FIELDS OF wa_vbpa</FPCLINE>
+      <FPCLINE>    where VBELN = wa_main-VBELN and PARVW = &apos;WE&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    check sy-subrc = 0.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    select single * from ADRC</FPCLINE>
+      <FPCLINE>      into wa_adrc</FPCLINE>
+      <FPCLINE>      where ADDRNUMBER = wa_VBPA-ADRNR.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    if sy-subrc = 0.</FPCLINE>
+      <FPCLINE>      wa_main-name1 = wa_adrc-name1.</FPCLINE>
+      <FPCLINE>      wa_main-pstlz = wa_adrc-post_code1.</FPCLINE>
+      <FPCLINE>      wa_main-ort01 = wa_adrc-city1.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>        CONCATENATE wa_main-name1 wa_main-pstlz wa_main-ort01</FPCLINE>
+      <FPCLINE>        INTO wa_main-local_descarga</FPCLINE>
+      <FPCLINE>        SEPARATED BY SPACE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>     if s_vttk-sdabw ne &apos;0005&apos;.</FPCLINE>
+      <FPCLINE>       wa_main-text_valor = &apos;&apos;.</FPCLINE>
+      <FPCLINE>     else.</FPCLINE>
+      <FPCLINE>       lv_temp = wa_main-netwr.</FPCLINE>
+      <FPCLINE>       concatenate lv_temp &apos;EUR&apos;</FPCLINE>
+      <FPCLINE>         INTO lv_temp</FPCLINE>
+      <FPCLINE>         SEPARATED BY SPACE.</FPCLINE>
+      <FPCLINE>       wa_main-text_valor = lv_temp.</FPCLINE>
+      <FPCLINE>     endif.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      append wa_main to s_main.</FPCLINE>
+      <FPCLINE>    else.</FPCLINE>
+      <FPCLINE>      select single * from kna1</FPCLINE>
+      <FPCLINE>        into wa_kna1</FPCLINE>
+      <FPCLINE>        where kunnr = wa_vbpa-kunnr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      if sy-subrc = 0.</FPCLINE>
+      <FPCLINE>        wa_main-name1 = wa_kna1-name1.</FPCLINE>
+      <FPCLINE>        wa_main-pstlz = wa_kna1-pstlz.</FPCLINE>
+      <FPCLINE>        wa_main-ort01 = wa_kna1-ort01.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>        CONCATENATE wa_main-name1 wa_main-pstlz wa_main-ort01</FPCLINE>
+      <FPCLINE>          INTO wa_main-local_descarga</FPCLINE>
+      <FPCLINE>          SEPARATED BY SPACE.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>        if s_vttk-sdabw ne &apos;0005&apos;.</FPCLINE>
+      <FPCLINE>         wa_main-text_valor = &apos;&apos;.</FPCLINE>
+      <FPCLINE>        else.</FPCLINE>
+      <FPCLINE>         lv_temp = wa_main-netwr.</FPCLINE>
+      <FPCLINE>         concatenate lv_temp &apos;EUR&apos;</FPCLINE>
+      <FPCLINE>           INTO lv_temp</FPCLINE>
+      <FPCLINE>           SEPARATED BY SPACE.</FPCLINE>
+      <FPCLINE>           wa_main-text_valor = lv_temp.</FPCLINE>
+      <FPCLINE>        endif.</FPCLINE>
+      <FPCLINE>        append wa_main to s_main.</FPCLINE>
+      <FPCLINE>      endif.</FPCLINE>
+      <FPCLINE>    endif.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>*      add wa_main-netwr to v_subtotal.</FPCLINE>
+      <FPCLINE>*      add wa_main-kzwi2 to v_iva.</FPCLINE>
+      <FPCLINE>  endselect.</FPCLINE>
+      <FPCLINE>      select * from vfsi</FPCLINE>
+      <FPCLINE>  into wa_main</FPCLINE>
+      <FPCLINE>  where knumv = wa_VFKP-KNUMV.</FPCLINE>
+      <FPCLINE>    v_subtotal = v_subtotal + wa_main-kzwi1.</FPCLINE>
+      <FPCLINE>    v_iva = v_iva + wa_main-kzwi2.</FPCLINE>
+      <FPCLINE>    v_desconto = v_desconto + wa_main-kzwi3.</FPCLINE>
+      <FPCLINE>    v_total = v_total + wa_main-netwr.</FPCLINE>
+      <FPCLINE>  endselect.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>endselect.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>ENDLOOP.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>v_desconto_txt = v_desconto.</FPCLINE>
+      <FPCLINE>concatenate v_desconto_txt &apos;EUR&apos;</FPCLINE>
+      <FPCLINE>into v_desconto_txt</FPCLINE>
+      <FPCLINE>separated by space.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>v_total_txt = v_total.</FPCLINE>
+      <FPCLINE>concatenate v_total_txt &apos;EUR&apos;</FPCLINE>
+      <FPCLINE>into v_total_txt</FPCLINE>
+      <FPCLINE>separated by space.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>v_iva_txt = v_iva.</FPCLINE>
+      <FPCLINE>concatenate v_iva_txt &apos;EUR&apos;</FPCLINE>
+      <FPCLINE>into v_iva_txt</FPCLINE>
+      <FPCLINE>separated by space.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>v_subtotal_txt = v_subtotal.</FPCLINE>
+      <FPCLINE>concatenate v_subtotal_txt &apos;EUR&apos;</FPCLINE>
+      <FPCLINE>into v_subtotal_txt</FPCLINE>
+      <FPCLINE>separated by space.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*INI-ROFF-SAM-VP-CT-CERTIFICACAO</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>perform get_proc_comput_mm IN PROGRAM ZCERTIFICA_FATURAS</FPCLINE>
+      <FPCLINE>       USING i_rbkp-belnr</FPCLINE>
+      <FPCLINE>             I_rbkp-gjahr</FPCLINE>
+      <FPCLINE>             i_rbkp-lifnr</FPCLINE>
+      <FPCLINE>             /1BCDWB/DOCPARAMS-langu</FPCLINE>
+      <FPCLINE>       CHANGING V_PROC_COMP.</FPCLINE>
+      <FPCLINE>*FIM-ROFF-SAM-VP-CT-CERTIFICACAO</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

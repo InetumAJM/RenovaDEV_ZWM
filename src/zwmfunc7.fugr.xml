@@ -1,0 +1,994 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Gestão da Portaria</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZWMFUNC7F01</SOBJ_NAME>
+    <SOBJ_NAME>LZWMFUNC7TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZWMFUNC7</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZWM_ENTRY_LOADING_V1</FUNCNAME>
+     <SHORT_TEXT>Criação de uma carga no sistema</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <DBFIELD>LTAK-LGNUM</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MATRICULA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR20</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>N_TRANSPORTE</PARAMETER>
+       <DBFIELD>ZWM006_AUX-N_TRANSPORTE</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TRANSPORTADOR</PARAMETER>
+       <DBFIELD>VTTK-TDLNR</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TIPO_CAMIAO</PARAMETER>
+       <DBFIELD>VTTK-SDABW</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OBSERVACOES</PARAMETER>
+       <DBFIELD>ZWM006_AUX-OBSERVACOES</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MODO</PARAMETER>
+       <DEFAULT>&apos;C&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OBSERVACOES2</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZWM006_AUX-OBSERVACOES</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_ZWM_018</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZWM_018</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>NUM_ENTRADA</PARAMETER>
+       <DBFIELD>ZWM003-NUM_ENTRADA</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <DBSTRUCT>BDCMSGCOLL</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_WAREHOUSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>DUPLICATE_ENTRY</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nºdepósito/complexo de depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATRICULA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Char 20</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>N_TRANSPORTE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº transporte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TRANSPORTADOR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº do agente de frete</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TIPO_CAMIAO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Código de processamento especial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBSERVACOES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>OBSERVACOES</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MODO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ModoProcessamento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBSERVACOES2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>OBSERVACOES</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_ZWM_018</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Peso x Diferenças</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NUM_ENTRADA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Char 20</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Agrupar mensagens no sistema SAP</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_WAREHOUSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Não existe armazem</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DUPLICATE_ENTRY</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Entradas em duplicado</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZWM_ENTRY_PARKING_V1</FUNCNAME>
+     <SHORT_TEXT>Função para executar o algoritmo de colocar camioes em parking</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <DBFIELD>LTAK-LGNUM</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TIPO_CAMIAO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTIPO_CAMIAO</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MATRICULA</PARAMETER>
+       <DBFIELD>ZWM003-MATRICULA</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>NUM_ENTRADA</PARAMETER>
+       <DBFIELD>ZWM003-NUM_ENTRADA</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OBSERVACOES</PARAMETER>
+       <DBFIELD>ZWM003-OBSERVACOES</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OBSERVACOES2</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZWM003-OBSERVACOES</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>PORTA</PARAMETER>
+       <DBFIELD>ZWM002-PORTA</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <DBSTRUCT>BDCMSGCOLL</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_WAREHOUSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_TIPO_CAMIAO</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR_IN_MANAGE_PARKING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR_IN_MANAGE_DOORS</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR_IN_GET_DOOR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nºdepósito/complexo de depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TIPO_CAMIAO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de Camião</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATRICULA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Char 20</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NUM_ENTRADA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Char 20</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBSERVACOES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>OBSERVACOES</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBSERVACOES2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>OBSERVACOES</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PORTA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Portão para o nº do depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Agrupar mensagens no sistema SAP</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_WAREHOUSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Não existe armazém</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_TIPO_CAMIAO</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Tipo de camião inválido</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_IN_MANAGE_PARKING</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro na função de visualização da fila de espera</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_IN_MANAGE_DOORS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro na função de visulaização do estado das portas</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_IN_GET_DOOR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro na função de algoritmo de escolha de porta</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZWM_GET_DOOR_S</FUNCNAME>
+     <SHORT_TEXT>Algoritmo de atribuição de portas</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <DBFIELD>LTAK-LGNUM</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TIPO_CAMIAO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTIPO_CAMIAO</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MATRICULA</PARAMETER>
+       <DBFIELD>ZWM003_AUX-MATRICULA</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>NUM_ENTRADA</PARAMETER>
+       <DBFIELD>ZWM003_AUX-NUM_ENTRADA</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>PORTA</PARAMETER>
+       <DBFIELD>ZWM002-PORTA</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <DBSTRUCT>BDCMSGCOLL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>L_ZWM002</PARAMETER>
+       <DBSTRUCT>ZWM002</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_PORTAS</PARAMETER>
+       <DBSTRUCT>ZWM003_AUX</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_WAREHOUSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_TIPO_CAMIAO</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR_IN_MANAGE_DOORS</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR_IN_DOORS</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_DOOR_TO_DIRECT_CHARGE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_DOOR_EXISTS</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_DELIVERY_EXISTS</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nºdepósito/complexo de depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TIPO_CAMIAO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de Camião</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATRICULA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Matricula</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NUM_ENTRADA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela R/2</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PORTA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Portão para o nº do depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Agrupar mensagens no sistema SAP</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>L_ZWM002</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela para gestões de portas WM/RF</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_PORTAS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela para a fila de espera dos camiões WM/RF</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_WAREHOUSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Armazém inválido</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_TIPO_CAMIAO</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Tipo de camião inválido</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_IN_MANAGE_DOORS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro na função manage doors</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_IN_DOORS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro no estado das portas</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DOOR_TO_DIRECT_CHARGE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Não existe porta para carga directa</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DOOR_EXISTS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Não existe porta desbloqueada</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DELIVERY_EXISTS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Ainda não existe remessa(s) associada(s)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZWM_GET_DOOR_V1</FUNCNAME>
+     <SHORT_TEXT>Algoritmo de atribuição de portas</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <DBFIELD>LTAK-LGNUM</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TIPO_CAMIAO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTIPO_CAMIAO</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MATRICULA</PARAMETER>
+       <DBFIELD>ZWM003-MATRICULA</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>NUM_ENTRADA</PARAMETER>
+       <DBFIELD>ZWM003-NUM_ENTRADA</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>PORTA</PARAMETER>
+       <DBFIELD>ZWM002-PORTA</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <DBSTRUCT>BDCMSGCOLL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>L_ZWM002</PARAMETER>
+       <DBSTRUCT>ZWM002</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_WAREHOUSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>WRONG_TIPO_CAMIAO</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR_IN_MANAGE_DOORS</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR_IN_DOORS</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_DOOR_TO_DIRECT_CHARGE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_DOOR_EXISTS</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_DELIVERY_EXISTS</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nºdepósito/complexo de depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TIPO_CAMIAO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de Camião</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATRICULA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Matricula</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NUM_ENTRADA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela R/2</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PORTA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Portão para o nº do depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Agrupar mensagens no sistema SAP</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>L_ZWM002</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela para gestões de portas WM/RF</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_WAREHOUSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Armazém inválido</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_TIPO_CAMIAO</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Tipo de camião inválido</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_IN_MANAGE_DOORS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro na função manage doors</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_IN_DOORS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro no estado das portas</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DOOR_TO_DIRECT_CHARGE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Não existe porta para carga directa</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DOOR_EXISTS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Não existe porta desbloqueada</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DELIVERY_EXISTS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Ainda não existe remessa(s) associada(s)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZWM_MANAGE_LOADING_V1</FUNCNAME>
+     <SHORT_TEXT>Função para gerir a tabela de CARGAS WM/RF</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>OPERACAO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <DBFIELD>LTAK-LGNUM</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>L_ZWM006</PARAMETER>
+       <DBSTRUCT>ZWM006_AUX</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <DBSTRUCT>BDCMSGCOLL</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_WAREHOUSE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>TAB_L_ZWM006_FILLED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>TAB_ZWM006_NOT_FILLED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>TAB_L_ZWM006_NOT_FILLED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>INVALID_PARAMETER</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>OPERACAO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-character flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nºdepósito/complexo de depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>L_ZWM006</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela para registo de DESCARGAS WM/RF</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Collecting messages in the SAP System</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_WAREHOUSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Armazém inexistente</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TAB_L_ZWM006_FILLED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Tabela não pode vir preenchida</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TAB_ZWM006_NOT_FILLED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Tabela tem de vir preenchida</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TAB_L_ZWM006_NOT_FILLED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Tabela tem de vir preenchida</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INVALID_PARAMETER</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Operação inválida</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZWM_MANAGE_PARKING_V1</FUNCNAME>
+     <SHORT_TEXT>Função para a gestão de parking</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>OPERACAO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <DBFIELD>LTAK-LGNUM</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>L_ZWM003</PARAMETER>
+       <DBSTRUCT>ZWM003_AUX</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <DBSTRUCT>BDCMSGCOLL</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>TAB_ZWM003_NOT_FILLED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>INVALID_PARAMETER</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>TAB_L_ZWM003_FILLED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>TAB_L_ZWM003_NOT_FILLED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_WAREHOUSE</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>OPERACAO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-character flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nºdepósito/complexo de depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>L_ZWM003</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela para a fila de espera dos camiões WM/RF</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Collecting messages in the SAP System</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TAB_ZWM003_NOT_FILLED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Tabela Zwm003 sem dados para mostrar</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INVALID_PARAMETER</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Operação escolhida inválida</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TAB_L_ZWM003_FILLED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>A tabela l_zwm003 está preenchida</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TAB_L_ZWM003_NOT_FILLED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>A tabela l_zwm003 não está preenchida</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_WAREHOUSE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Armazém não existente</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZWM_NEXT_TRUCK_S</FUNCNAME>
+     <SHORT_TEXT>Algoritmo de escolha do próximo(s) camião</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <DBFIELD>LTAK-LGNUM</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN_TRUCK</PARAMETER>
+       <DBSTRUCT>ZWM_RETURN_TRUCK</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <DBSTRUCT>BDCMSGCOLL</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_DOOR_UNLOCKED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>EXCEPTION_MANAGE_PARKING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_QUEUE_EXISTS</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_DOOR_TRUCK</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR_IN_GET_DOOR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR_IN_MANAGE_DOORS</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nºdepósito/complexo de depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN_TRUCK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estrutura de retorno do algoritmo escolha do próximo camião</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Agrupar mensagens no sistema SAP</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DOOR_UNLOCKED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Não existem portas desbloqueadas</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXCEPTION_MANAGE_PARKING</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro na função zwm_manage_parking</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_QUEUE_EXISTS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Não existem camiões na fila de espera</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DOOR_TRUCK</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Não existe associação entre tipo de camiões e tipo de portas</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_IN_GET_DOOR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro na função zwm_get_door</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_IN_MANAGE_DOORS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro na função manage_doors</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZWM_SORT_QUEUE_V1</FUNCNAME>
+     <SHORT_TEXT>Critérios para ordenação da fila de espera</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <DBFIELD>LTAK-LGNUM</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <DBSTRUCT>BDCMSGCOLL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>L_ZWM003</PARAMETER>
+       <DBSTRUCT>ZWM003_AUX</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ARMAZEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nºdepósito/complexo de depósito</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Agrupar mensagens no sistema SAP</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>L_ZWM003</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela para a fila de espera dos camiões WM/RF</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_WM_DEQUEUE_TKNUM_WAIT</FUNCNAME>
+     <SHORT_TEXT>Agurda por Desbloqueio de Documento</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_TKNUM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TKNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_WAIT</PARAMETER>
+       <DEFAULT>20</DEFAULT>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SYINDEX</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_TKNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº transporte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_WAIT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Contador de loops</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_WM_SHIPMENT_SET_STATUS</FUNCNAME>
+     <SHORT_TEXT>Update de status de documento de tranporte</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_TKNUM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TKNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STATUS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STATUS_FORCE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FLAG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_WAIT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FLAG</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_MESSAGES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TAB_BDCMSGCOLL</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_TKNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº transporte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STATUS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dummy para B20 int1 (sempre local!)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STATUS_FORCE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flag geral</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_WAIT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flag geral</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_MESSAGES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabela de mensagens na transação</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Erro</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

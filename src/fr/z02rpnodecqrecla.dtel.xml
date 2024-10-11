@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z02RPNODECQRECLA</ROLLNAME>
+    <DDLANGUAGE>P</DDLANGUAGE>
+    <HEADLEN>25</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Quantidade a reclamar sem décimais</DDTEXT>
+    <REPTEXT>Quantidade a reclamar</REPTEXT>
+    <SCRTEXT_S>Qd. recla.</SCRTEXT_S>
+    <SCRTEXT_M>Qd. a reclamar</SCRTEXT_M>
+    <SCRTEXT_L>Quant. a reclamar</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <DATATYPE>NUMC</DATATYPE>
+    <LENG>000013</LENG>
+    <OUTPUTLEN>000013</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Quantité à réclamer sans décimale</DDTEXT>
+     <REPTEXT>Quantité à réclamer</REPTEXT>
+     <SCRTEXT_S>Qt réclam</SCRTEXT_S>
+     <SCRTEXT_M>Qt à réclamer</SCRTEXT_M>
+     <SCRTEXT_L>Quantité à réclamer</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
